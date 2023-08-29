@@ -1,0 +1,54 @@
+{
+  "status": "success",
+  "message": "ok",
+  "data": {
+    "results": {
+      "id": 1,
+      "firstname": "lewis",
+      "lastname": "hamilton",
+      "nickname": null,
+      "birth": "07/06/1985",
+      "death": null,
+      "races": 322,
+      "victories": 103,
+      "championships": 7,
+      "podiums": 195,
+      "points": 4553.5,
+      "debut": "18/03/2007",
+      "retire": null,
+      "country": {
+        "id": 0,
+        "name": "united kingdom",
+        "iso": "gbr",
+        "flag": "<svg id='flag-icons-gb' viewbox='0 0 640 480' xmlns='http://www.w3.org/2000/svg'><path d='M0 0h640v480H0z' fill='#012169'></path><path d='m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z' fill='#FFF'></path><path d='m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z' fill='#C8102E'></path><path d='M241 0v480h160V0H241zM0 160v160h640V160H0z' fill='#FFF'></path><path d='M0 193v96h640v-96H0zM273 0v480h96V0h-96z' fill='#C8102E'></path></svg>"
+      },
+      "picture": "https://www.pngplay.com/wp-content/uploads/13/Lewis-Hamilton-Background-PNG-Image.png",
+      "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/hamilton.png",
+      "number": {
+        "digit": 44,
+        "icon": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LEWHAM01.png.transform/2col/image.png"
+      },
+      "season": 2023,
+      "team": {
+        "id": 0,
+        "name": "Mercedes-AMG PETRONAS F1 Team",
+        "scudery": {
+          "id": 0,
+          "name": "mercedes",
+          "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.png",
+          "icon": "https://freepngimg.com/download/mercedes_benz/24322-9-mercedes-benz-logo-file.png"
+        },
+        "country": {
+          "id": 0,
+          "name": "united kingdom",
+          "iso": "gbr",
+          "flag": "<svg id='flag-icons-gb' viewbox='0 0 640 480' xmlns='http://www.w3.org/2000/svg'><path d='M0 0h640v480H0z' fill='#012169'></path><path d='m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z' fill='#FFF'></path><path d='m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z' fill='#C8102E'></path><path d='M241 0v480h160V0H241zM0 160v160h640V160H0z' fill='#FFF'></path><path d='M0 193v96h640v-96H0zM273 0v480h96V0h-96z' fill='#C8102E'></path></svg>"
+        }
+      }
+    }
+  },
+  "code": 200,
+  "meta": {
+    "version": "v1"
+  }
+}
