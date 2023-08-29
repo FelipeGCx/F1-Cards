@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "f1R";
+  src: url("formula1-regular-webfont.woff2") format("woff2"),
+    url("formula1-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "f1B";
+  src: url("formula1-bold-webfont.woff2") format("woff2"),
+    url("formula1-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "f1W";
+  src: url("formula1-wide-webfont.woff2") format("woff2"),
+    url("formula1-wide-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
