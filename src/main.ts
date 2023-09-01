@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-// import './style.css'
+import './styles/globals.scss'
 import './assets/fonts/stylesheet.css'
 import App from './App.vue'
 
