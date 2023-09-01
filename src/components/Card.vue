@@ -4,6 +4,7 @@ import { DevelopmentProvider } from "../services/requestAdapter/developmentProvi
 import { RequestService } from "../services/requestAdapter/requestService";
 import { DRIVER, SUCCESS } from "../constants";
 import { Driver } from "../types/driver";
+import {Logo, Graph} from "../assets/icons";
 
 const driver = ref<Driver>();
 
@@ -27,26 +28,8 @@ const getDriver = async (url: string) => {
 
 <template>
   <div class="card" v-if="driver">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="-0.0001 0 120 30"
-      class="icon"
-      fill="currentColor"
-    >
-      <path
-        d="M 89.9999 30 L 119.9999 0 L 101.9437 0 L 71.9443 30 L 89.9999 30 Z M 85.6987 13.065 L 49.3818 13.065 C 38.3137 13.065 36.3768 13.6519 31.6362 18.3925 C 27.2024 22.8263 20.0006 30 20.0006 30 L 35.7324 30 L 39.4856 26.2469 C 41.9531 23.7794 43.2256 23.5237 48.4068 23.5237 L 75.2406 23.5237 L 85.6987 13.065 Z M 31.1518 16.2531 C 27.8774 19.3425 20.7531 26.2631 16.9131 30 L -0.0001 30 C -0.0001 30 13.5524 16.4869 21.0849 9.0725 C 28.8456 1.685 32.7143 0 46.9487 0 L 98.7643 0 L 87.5449 11.2188 L 48.0012 11.2188 C 37.9993 11.2188 35.7518 11.9119 31.1518 16.2531 Z"
-      />
-    </svg>
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="-0.0001 0 120 30"
-      class="iconBack"
-      fill="currentColor"
-    >
-      <path
-        d="M 89.9999 30 L 119.9999 0 L 101.9437 0 L 71.9443 30 L 89.9999 30 Z M 85.6987 13.065 L 49.3818 13.065 C 38.3137 13.065 36.3768 13.6519 31.6362 18.3925 C 27.2024 22.8263 20.0006 30 20.0006 30 L 35.7324 30 L 39.4856 26.2469 C 41.9531 23.7794 43.2256 23.5237 48.4068 23.5237 L 75.2406 23.5237 L 85.6987 13.065 Z M 31.1518 16.2531 C 27.8774 19.3425 20.7531 26.2631 16.9131 30 L -0.0001 30 C -0.0001 30 13.5524 16.4869 21.0849 9.0725 C 28.8456 1.685 32.7143 0 46.9487 0 L 98.7643 0 L 87.5449 11.2188 L 48.0012 11.2188 C 37.9993 11.2188 35.7518 11.9119 31.1518 16.2531 Z"
-      />
-    </svg>
+    <Logo :class="'icon'"/>
+    <Logo :class="'iconBack'"/>
     <img :src="driver.picture" class="picture" />
     <div class="names">
       <!-- <picture v-html="driver.team.scudery.icon" class="team-icon"> </picture> -->
@@ -55,19 +38,42 @@ const getDriver = async (url: string) => {
       <p class="firstname">{{ driver.firstname }}</p>
       <p class="lastname">{{ driver.lastname }}</p>
     </div>
-    <div class="information"></div>
     <div class="details">
       <img :src="driver.helmet" alt="" class="helmet" />
       <img :src="driver.number.icon" alt="" class="number" />
+    </div>
+    <div class="information">
+      <Graph :class="'graph'"/>
+      <Graph :class="'graph'"/>
+      <div>
+        <p class="title">team:</p>
+        <p class="data">{{ driver.team.scudery.name }}</p>
+      </div>
+      <div>
+        <p class="title">podiums:</p>
+        <p class="data">{{ driver.podiums }}</p>
+      </div>
+      <div>
+        <p class="title">races:</p>
+        <p class="data">{{ driver.races }}</p>
+      </div>
+      <div>
+        <p class="title">victories:</p>
+        <p class="data">{{ driver.victories }}</p>
+      </div>
+      <div>
+        <p class="title">points:</p>
+        <p class="data">{{ driver.points }}</p>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
 .card {
-  width: 20rem;
+  font-size: 2rem;
+  width: 20em;
   aspect-ratio: 0.72/1;
-  padding: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,67 +82,67 @@ const getDriver = async (url: string) => {
   overflow: hidden;
   .iconBack {
     position: absolute;
-    width: 64rem;
+    width: 64em;
     height: auto;
     color: #1f1f24;
     z-index: 1;
-    top: 0%;
-    right: -43%;
+    top: 0em;
+    right: -12em;
   }
   .icon {
     position: absolute;
-    width: 16rem;
+    width: 16em;
     height: auto;
     color: white;
     z-index: 2;
-    top: 3%;
-    left: 6%;
+    top: 1em;
+    left: 1em;
   }
   .picture {
     position: absolute;
-    width: 33rem;
+    width: 33em;
     height: auto;
     z-index: 3;
-    right: -37%;
-    top: 3%;
+    right: -10em;
+    top: 1em;
   }
   .details {
     position: absolute;
     display: flex;
     flex-direction: column;
     z-index: 4;
-    top: 24%;
-    left: 0;
+    top: 7.2em;
+    left: 0em;
     .helmet {
-      width: 6rem;
+      width: 6em;
       height: auto;
     }
     .number {
       position: absolute;
-      width: 5rem;
+      width: 5em;
       height: auto;
-      right: -3rem;
-      bottom: -1rem;
+      right: -3em;
+      bottom: -1em;
     }
   }
   .names {
     background-color: #1f1f24;
-    width: 15rem;
-    height: 3.5rem;
+    width: 15em;
+    height: fit-content;
     display: grid;
     z-index: 5;
     color: white;
     text-transform: capitalize;
-    padding: 0.4rem;
+    padding: 0.4em;
     position: absolute;
     left: 0;
-    bottom: 10rem;
+    bottom: 7.8em;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     grid-template-columns: auto auto 1fr;
     grid-template-rows: 50% 50%;
     .team-icon {
-      width: 3.5rem;
+      width: 3.5em;
       grid-area: 1/1/3/2;
       margin: auto;
       margin-left: 0;
@@ -144,22 +150,25 @@ const getDriver = async (url: string) => {
     .firstname {
       grid-area: 1/2/2/3;
       font-family: "f1R";
-      font-size: 1.2rem;
+      font-size: 1.2em;
       margin: auto;
       margin-left: 0;
     }
     .lastname {
       grid-area: 2/2/3/4;
-      font-family: "f1W";
+      font-family: "f1B";
+      font-size: 1.2em;
       margin: auto;
       margin-left: 0;
+      text-transform: uppercase;
     }
     .country {
       grid-area: 1/3/2/4;
-      width: 1.5rem;
+      width: 1em;
       display: flex;
       place-items: center;
-      margin-left: .4rem;
+      margin-left: 0.8em;
+      transform: scaleX(1.5);
     }
   }
   .information {
@@ -167,53 +176,42 @@ const getDriver = async (url: string) => {
     background-color: #333333;
     z-index: 4;
     width: inherit;
-    padding: 1.2rem;
+    padding: 3.3em 1.2em 1.2em 1.2em;
     bottom: 0;
-    height: 10rem;
-    .fullname {
-      text-transform: capitalize;
-      color: white;
-      font-family: "f1W";
+    max-height: 10em;
+    min-height: 10em;
+    text-transform: capitalize;
+    color: white;
+    font-family: "f1R";
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    .graph {
+      position: absolute;
+      height: 100%;
+      top: 0;
+      color: rgb(110 110 110 / 70%);
+      z-index: 0;
+      &:nth-child(1) {
+        transform: rotateY(180deg);
+        right: -2em;
+      }
+      &:nth-child(2) {
+        left: -2em;
+      }
+    }
+    div {
+      position: relative;
+      font-size: 0.8em;
+      display: flex;
+      gap: 0.8em;
+      height: 1.6em;
+      justify-content: center;
+      align-items: center;
+      p {
+        width: 50%;
+      }
     }
   }
-  //   &::before {
-  //     content: "";
-  //     background: rgb(0, 255, 213);
-  //     background: linear-gradient(
-  //       25deg,
-  //       rgba(0, 255, 213, 1) 0%,
-  //       rgba(10, 146, 131, 1) 35%,
-  //       rgba(0, 255, 239, 1) 67%,
-  //       rgba(13, 188, 185, 1) 100%
-  //     );
-  //     border-radius: 1.2rem;
-  //     position: absolute;
-  //     width: 25rem;
-  //     aspect-ratio: 16/7;
-  //     z-index: 1;
-  //     transform: skewX(-45deg);
-  //     top: -9%;
-  //     left: -18%;
-  //     outline: 1.5rem solid #e2e2e2;
-  //   }
-  //   &::after {
-  //     content: "";
-  //     background: rgb(0, 255, 213);
-  //     background: linear-gradient(
-  //       25deg,
-  //       rgba(0, 255, 213, 1) 0%,
-  //       rgba(10, 146, 131, 1) 35%,
-  //       rgba(0, 255, 239, 1) 67%,
-  //       rgba(13, 188, 185, 1) 100%
-  //     );
-  //     border-radius: 1.2rem;
-  //     position: absolute;
-  //     width: 35rem;
-  //     aspect-ratio: 16/7;
-  //     z-index: 0;
-  //     transform: skewX(-45deg);
-  //     top: 1%;
-  //     left: -42%;
-  //   }
 }
 </style>
