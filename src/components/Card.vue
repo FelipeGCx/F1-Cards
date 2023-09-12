@@ -34,7 +34,7 @@ const getDriver = async (url: string) => {
     <div class="names">
       <!-- <picture v-html="driver.team.scudery.icon" class="team-icon"> </picture> -->
       <img :src="driver.team.scudery.icon" alt="" class="team-icon" />
-      <picture v-html="driver.country.flag" class="country"> </picture>
+      <picture v-html="driver.country.flag.widescreen" class="country"> </picture>
       <p class="firstname">{{ driver.firstname }}</p>
       <p class="lastname">{{ driver.lastname }}</p>
     </div>
@@ -141,6 +141,7 @@ const getDriver = async (url: string) => {
     border-bottom-left-radius: 0;
     grid-template-columns: auto auto 1fr;
     grid-template-rows: 50% 50%;
+    gap: 0 0.4em;
     .team-icon {
       width: 3.5em;
       grid-area: 1/1/3/2;
@@ -164,11 +165,8 @@ const getDriver = async (url: string) => {
     }
     .country {
       grid-area: 1/3/2/4;
-      width: 1em;
+      width: 1.5em;
       display: flex;
-      place-items: center;
-      margin-left: 0.8em;
-      transform: scaleX(1.5);
     }
   }
   .information {
