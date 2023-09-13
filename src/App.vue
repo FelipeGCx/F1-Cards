@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Card from './components/Card.vue'
+import CardDriver from "./components/CardDriver.vue";
 </script>
 
 <template>
-  <Card />
+  <CardDriver />
 </template>
 
 <style scoped>
