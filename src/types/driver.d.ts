@@ -1,3 +1,5 @@
+import { Country, Team } from "./index";
+
 export type Driver = {
   id: number;
   firstname: string;
@@ -23,29 +25,4 @@ export type Driver = {
 export type DriverNumber = {
   digit: number;
   icon: string;
-};
-
-export type Team = {
-  id: number;
-  name: string;
-  scudery: Scudery;
-  country: Country;
-};
-
-export type Scudery = {
-  id: number;
-  name: string;
-  icon: string;
-};
-
-export type Country = {
-  id: number;
-  name: string;
-  iso: string;
-  flag: Flag;
-};
-
-export type Flag = {
-  fullscreen: string;
-  widescreen: string;
 };
