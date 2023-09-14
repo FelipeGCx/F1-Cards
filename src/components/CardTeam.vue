@@ -2,23 +2,23 @@
 import { onMounted, ref } from "vue";
 import { DevelopmentProvider } from "../services/requestAdapter/developmentProvider";
 import { RequestService } from "../services/requestAdapter/requestService";
-import { DRIVER, SUCCESS } from "../constants";
-import { Driver } from "../types/driver";
-import {Logo, Graph} from "../assets/icons";
+import { TEAM, SUCCESS } from "../constants";
+import { Team } from "../types";
+import { Logo, Line } from "../assets/icons";
 
-const driver = ref<Driver>();
+const team = ref<Team>();
 
 onMounted(() => {
-  getDriver(DRIVER);
+  getTeam(TEAM);
 });
 
-const getDriver = async (url: string) => {
+const getTeam = async (url: string) => {
   const requestProvider = new DevelopmentProvider();
   const requestService = new RequestService(requestProvider);
   const requestResponse = await requestService.getRequest(url);
   switch (requestResponse.status) {
     case SUCCESS:
-      driver.value = requestResponse.data.results;
+      team.value = requestResponse.data.results;
       break;
     default:
       break;
@@ -27,51 +27,36 @@ const getDriver = async (url: string) => {
 </script>
 
 <template>
-  <div class="card" v-if="driver">
-    <Logo :class="'icon'"/>
-    <Logo :class="'iconBack'"/>
-    <img :src="driver.picture" class="picture" />
-    <div class="names">
-      <!-- <picture v-html="driver.team.scudery.icon" class="team-icon"> </picture> -->
-      <img :src="driver.team.scudery.icon" alt="" class="team-icon" />
-      <picture v-html="driver.country.flag.widescreen" class="country"> </picture>
-      <p class="firstname">{{ driver.firstname }}</p>
-      <p class="lastname">{{ driver.lastname }}</p>
+  <section class="card" v-if="team" :style="`--color-team: ${team.color}`">
+    <Logo :class="'iconBack'" />
+    <img :src="team.picture" class="picture" />
+    <div class="name">
+      <h1>{{ team.name }}</h1>
+      <p>{{ team.scudery.name }}</p>
     </div>
-    <div class="details">
-      <img :src="driver.helmet" alt="" class="helmet" />
-      <img :src="driver.number.icon" alt="" class="number" />
+    <div class="site">
+      <p>{{ team.city }}</p>
+      <p>{{ team.country.name }}</p>
+      <picture v-html="team.country.flag.widescreen"></picture>
     </div>
-    <div class="information">
-      <Graph :class="'graph'"/>
-      <Graph :class="'graph'"/>
-      <div>
-        <p class="title">team:</p>
-        <p class="data">{{ driver.team.scudery.name }}</p>
-      </div>
-      <div>
-        <p class="title">podiums:</p>
-        <p class="data">{{ driver.podiums }}</p>
-      </div>
-      <div>
-        <p class="title">races:</p>
-        <p class="data">{{ driver.races }}</p>
-      </div>
-      <div>
-        <p class="title">victories:</p>
-        <p class="data">{{ driver.victories }}</p>
-      </div>
-      <div>
-        <p class="title">points:</p>
-        <p class="data">{{ driver.points }}</p>
-      </div>
+    <p class="chasis">{{ team.chasis }}</p>
+    <p class="engine">
+      {{ team.engine }}
+    </p>
+    <div class="logo">
+      <picture v-html="team.scudery.logo"> </picture>
     </div>
-  </div>
+    <div class="f1-logo">
+      <Logo :class="'icon'" />
+    </div>
+    <Line class="line" />
+    <div class="shadow"></div>
+  </section>
 </template>
 
 <style scoped lang="scss">
 .card {
-  font-size: 2rem;
+  font-size: 1.2rem;
   height: 20em;
   aspect-ratio: 1/0.72;
   display: flex;
@@ -82,134 +67,184 @@ const getDriver = async (url: string) => {
   overflow: hidden;
   .iconBack {
     position: absolute;
-    width: 64em;
+    width: 44em;
     height: auto;
-    color: #1f1f24;
-    z-index: 1;
-    top: 0em;
-    right: -12em;
-  }
-  .icon {
-    position: absolute;
-    width: 16em;
-    height: auto;
-    color: white;
     z-index: 2;
-    top: 1em;
-    left: 1em;
+    top: 0em;
+    left: 0em;
+    transform: rotateY(180deg);
+    color: var(--color-team);
+  }
+
+  .name {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 0.8em;
+    color: white;
+    text-transform: uppercase;
+    h1 {
+      font-size: 1em;
+      font-weight: 500;
+    }
+    p {
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+  }
+  .site {
+    position: absolute;
+    display: grid;
+    right: 0;
+    top: 5.5em;
+    z-index: 2;
+    margin: 1.4em 1.2em;
+    color: white;
+    gap: 0.4em 1.2em;
+    text-transform: uppercase;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr 1fr;
+    font-size: 0.8em;
+    text-align: end;
+    & > :nth-child(1) {
+      grid-area: 1/1/2/2;
+      letter-spacing: 0.08em;
+    }
+    & > :nth-child(2) {
+      grid-area: 2/1/3/2;
+      font-family: "f1B";
+    }
+    picture {
+      grid-area: 1/2/3/3;
+      height: 1.6em;
+      display: flex;
+      margin: auto;
+    }
   }
   .picture {
     position: absolute;
-    width: 33em;
+    width: 25em;
     height: auto;
     z-index: 3;
-    right: -10em;
-    top: 1em;
+    margin: auto auto -2em auto;
   }
-  .details {
+
+  .chasis {
     position: absolute;
-    display: flex;
-    flex-direction: column;
+    color: var(--color-team);
+    background-color: white;
+    width: fit-content;
+    padding: 0.1em 1.6em;
+    clip-path: polygon(1.1lh 0%, 100% 0%, calc(100% - 1.1lh) 100%, 0% 100%);
+    align-self: flex-end;
+    font-weight: 500;
+    font-size: 1em;
+    text-transform: uppercase;
+    z-index: 2;
+    right: 6.5em;
+    bottom: 3.4em;
+  }
+
+  .engine {
+    position: absolute;
+    background-color: var(--color-team);
+    color: white;
+    width: fit-content;
+    padding: 0.1em 1.6em;
+    clip-path: polygon(1.1lh 0%, 100% 0%, calc(100% - 1.1lh) 100%, 0% 100%);
+    align-self: flex-start;
+    font-weight: 500;
+    font-size: 1em;
+    text-transform: uppercase;
+    z-index: 2;
+    right: 7.9em;
+    bottom: 1.6em;
+  }
+  .f1-logo {
+    padding-left: 2.4em;
+    height: 4.3em;
+    width: 10em;
+    background-color: var(--color-team);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 1em 0;
+    clip-path: polygon(41% 0%, 100% 0%, 100% 100%, 0% 100%);
     z-index: 4;
-    top: 7.2em;
-    left: 0em;
-    .helmet {
-      width: 6em;
-      height: auto;
-    }
-    .number {
-      position: absolute;
-      width: 5em;
-      height: auto;
-      right: -3em;
-      bottom: -1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .icon {
+      color: white;
+      width: auto;
+      height: 1.6em;
     }
   }
-  .names {
-    background-color: #1f1f24;
-    width: 15em;
-    height: fit-content;
-    display: grid;
-    z-index: 5;
-    color: white;
-    text-transform: capitalize;
-    padding: 0.4em;
+  .logo {
+    // padding: 0.6em 3.8em 0.7em 1.4em;
+    background-color: var(--color-team);
     position: absolute;
     left: 0;
-    bottom: 7.8em;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    grid-template-columns: auto auto 1fr;
-    grid-template-rows: 50% 50%;
-    gap: 0 0.4em;
-    .team-icon {
-      width: 3.5em;
-      grid-area: 1/1/3/2;
-      margin: auto;
-      margin-left: 0;
-    }
-    .firstname {
-      grid-area: 1/2/2/3;
-      font-family: "f1R";
-      font-size: 1.2em;
-      margin: auto;
-      margin-left: 0;
-    }
-    .lastname {
-      grid-area: 2/2/3/4;
-      font-family: "f1B";
-      font-size: 1.2em;
-      margin: auto;
-      margin-left: 0;
-      text-transform: uppercase;
-    }
-    .country {
-      grid-area: 1/3/2/4;
-      width: 1.5em;
+    bottom: 0;
+    margin: 1em 0;
+    height: 4.3em;
+    width: 9.7em;
+    clip-path: polygon(0% 0%, 100% 0%, 56% 100%, 0% 100%);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2.4em;
+    picture {
       display: flex;
+      width: auto;
+      height: 3em;
     }
   }
-  .information {
-    position: absolute;
-    background-color: #333333;
-    z-index: 4;
-    width: inherit;
-    padding: 3.3em 1.2em 1.2em 1.2em;
-    bottom: 0;
-    max-height: 10em;
-    min-height: 10em;
-    text-transform: capitalize;
-    color: white;
-    font-family: "f1R";
+  .line {
     display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    .graph {
-      position: absolute;
-      height: 100%;
-      top: 0;
-      color: rgb(110 110 110 / 70%);
-      z-index: 0;
-      &:nth-child(1) {
-        transform: rotateY(180deg);
-        right: -2em;
-      }
-      &:nth-child(2) {
-        left: -2em;
-      }
-    }
-    div {
-      position: relative;
-      font-size: 0.8em;
-      display: flex;
-      gap: 0.8em;
-      height: 1.6em;
-      justify-content: center;
-      align-items: center;
-      p {
-        width: 50%;
-      }
-    }
+    height: 89%;
+    position: absolute;
+    z-index: 0;
+    color: var(--color-team);
+    bottom: 0.8em;
+    left: 0;
+  }
+  .shadow {
+    position: absolute;
+    top: 12em;
+    width: 100%;
+    height: 17em;
+    z-index: 1;
+    background: linear-gradient(0deg, var(--color-team) 0%, transparent 100%);
+  }
+  &::after {
+    content: "";
+    background-color: white;
+    height: 4.5em;
+    display: flex;
+    width: 9.9em;
+    position: absolute;
+    z-index: 1;
+    clip-path: polygon(0% 0%, 100% 0%, 56% 100%, 0% 100%);
+    bottom: 0.8em;
+    left: 0;
+  }
+  &::before {
+    content: "";
+    background-color: white;
+    height: 4.5em;
+    width: 10.4em;
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    clip-path: polygon(41% 0%, 100% 0%, 100% 100%, 0% 100%);
+    bottom: 0.8em;
+    right: 0;
   }
 }
 </style>
