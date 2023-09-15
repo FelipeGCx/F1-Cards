@@ -1,7 +1,7 @@
 import { Response } from "../../types";
 import { RequestProvider } from "./requestProvider";
-import { Error, Driver, Team } from "./mocks";
-import { DRIVER, TEAM } from "../../constants";
+import { Error, Driver, Team, Teams } from "./mocks";
+import { DRIVER, TEAM, TEAMS } from "../../constants";
 
 export class DevelopmentProvider implements RequestProvider {
   async getRequest(url: string, _headers?: string): Promise<Response> {
@@ -10,6 +10,8 @@ export class DevelopmentProvider implements RequestProvider {
         return Driver;
       case TEAM:
         return Team;
+      case TEAMS:
+        return Teams;
       default:
         return Error;
     }
