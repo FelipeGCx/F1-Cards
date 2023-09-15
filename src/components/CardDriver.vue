@@ -1,69 +1,52 @@
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
-import { DevelopmentProvider } from "../services/requestAdapter/developmentProvider";
-import { RequestService } from "../services/requestAdapter/requestService";
-import { DRIVER, SUCCESS } from "../constants";
 import { Driver } from "../types/driver";
-import {Logo, Graph} from "../assets/icons";
+import { Logo, Graph } from "../assets/icons";
 
-const driver = ref<Driver>();
-
-onMounted(() => {
-  getDriver(DRIVER);
-});
-
-const getDriver = async (url: string) => {
-  const requestProvider = new DevelopmentProvider();
-  const requestService = new RequestService(requestProvider);
-  const requestResponse = await requestService.getRequest(url);
-  switch (requestResponse.status) {
-    case SUCCESS:
-      driver.value = requestResponse.data.results;
-      break;
-    default:
-      break;
-  }
-};
+interface Props {
+  driver: Driver | null;
+}
+const props = defineProps<Props>();
 </script>
 
 <template>
-  <div class="card" v-if="driver">
-    <Logo :class="'icon'"/>
-    <Logo :class="'iconBack'"/>
-    <img :src="driver.picture" class="picture" />
+  <div class="card" v-if="props.driver">
+    <Logo :class="'icon'" />
+    <Logo :class="'iconBack'" />
+    <img :src="props.driver.picture" class="picture" />
     <div class="names">
-      <!-- <picture v-html="driver.team.scudery.icon" class="team-icon"> </picture> -->
-      <img :src="driver.team.scudery.icon" alt="" class="team-icon" />
-      <picture v-html="driver.country.flag.widescreen" class="country"> </picture>
-      <p class="firstname">{{ driver.firstname }}</p>
-      <p class="lastname">{{ driver.lastname }}</p>
+      <!-- <picture v-html="props.driver.team.scudery.icon" class="team-icon"> </picture> -->
+      <img :src="props.driver.team.scudery.icon" alt="" class="team-icon" />
+      <picture v-html="props.driver.country.flag.widescreen" class="country">
+      </picture>
+      <p class="firstname">{{ props.driver.firstname }}</p>
+      <p class="lastname">{{ props.driver.lastname }}</p>
     </div>
     <div class="details">
-      <img :src="driver.helmet" alt="" class="helmet" />
-      <img :src="driver.number.icon" alt="" class="number" />
+      <img :src="props.driver.helmet" alt="" class="helmet" />
+      <img :src="props.driver.number.icon" alt="" class="number" />
     </div>
     <div class="information">
-      <Graph :class="'graph'"/>
-      <Graph :class="'graph'"/>
+      <Graph :class="'graph'" />
+      <Graph :class="'graph'" />
       <div>
         <p class="title">team:</p>
-        <p class="data">{{ driver.team.scudery.name }}</p>
+        <p class="data">{{ props.driver.team.scudery.name }}</p>
       </div>
       <div>
         <p class="title">podiums:</p>
-        <p class="data">{{ driver.podiums }}</p>
+        <p class="data">{{ props.driver.podiums }}</p>
       </div>
       <div>
         <p class="title">races:</p>
-        <p class="data">{{ driver.races }}</p>
+        <p class="data">{{ props.driver.races }}</p>
       </div>
       <div>
         <p class="title">victories:</p>
-        <p class="data">{{ driver.victories }}</p>
+        <p class="data">{{ props.driver.victories }}</p>
       </div>
       <div>
         <p class="title">points:</p>
-        <p class="data">{{ driver.points }}</p>
+        <p class="data">{{ props.driver.points }}</p>
       </div>
     </div>
   </div>

@@ -1,50 +1,32 @@
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
-import { DevelopmentProvider } from "../services/requestAdapter/developmentProvider";
-import { RequestService } from "../services/requestAdapter/requestService";
-import { TEAM, SUCCESS } from "../constants";
 import { Team } from "../types";
 import { Logo, Line } from "../assets/icons";
 
-const team = ref<Team>();
-
-onMounted(() => {
-  getTeam(TEAM);
-});
-
-const getTeam = async (url: string) => {
-  const requestProvider = new DevelopmentProvider();
-  const requestService = new RequestService(requestProvider);
-  const requestResponse = await requestService.getRequest(url);
-  switch (requestResponse.status) {
-    case SUCCESS:
-      team.value = requestResponse.data.results;
-      break;
-    default:
-      break;
-  }
-};
+interface Props {
+  team: Team | null;
+}
+const props = defineProps<Props>();
 </script>
 
 <template>
-  <section class="card" v-if="team" :style="`--color-team: ${team.color}`">
+  <section class="card" v-if="props.team" :style="`--color-team: ${props.team.color}`">
     <Logo :class="'iconBack'" />
-    <img :src="team.picture" class="picture" />
+    <img :src="props.team.picture" class="picture" />
     <div class="name">
-      <h1>{{ team.name }}</h1>
-      <p>{{ team.scudery.name }}</p>
+      <h1>{{ props.team.name }}</h1>
+      <p>{{ props.team.scudery.name }}</p>
     </div>
     <div class="site">
-      <p>{{ team.city }}</p>
-      <p>{{ team.country.name }}</p>
-      <picture v-html="team.country.flag.widescreen"></picture>
+      <p>{{ props.team.city }}</p>
+      <p>{{ props.team.country.name }}</p>
+      <picture v-html="props.team.country.flag.widescreen"></picture>
     </div>
-    <p class="chasis">{{ team.chasis }}</p>
+    <p class="chasis">{{ props.team.chasis }}</p>
     <p class="engine">
-      {{ team.engine }}
+      {{ props.team.engine }}
     </p>
     <div class="logo">
-      <picture v-html="team.scudery.logo"> </picture>
+      <picture v-html="props.team.scudery.logo"> </picture>
     </div>
     <div class="f1-logo">
       <Logo :class="'icon'" />
