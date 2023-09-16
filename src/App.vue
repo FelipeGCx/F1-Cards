@@ -33,7 +33,7 @@ const getData = async <T>(url: string): Promise<T | null> => {
   <div>
     <CardDriver :driver="driver" />
     <CardTeam :team="team" />
-    <ul>
+    <ul class="cars" >
       <li v-for="t in teams" :key="t.id">
         <CardTeam :team="t" />
       </li>
@@ -41,17 +41,10 @@ const getData = async <T>(url: string): Promise<T | null> => {
   </div>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+<style lang='scss' scoped>
+.cars{
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
 }
 </style>
