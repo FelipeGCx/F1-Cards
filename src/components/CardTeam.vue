@@ -9,7 +9,11 @@ const props = defineProps<Props>();
 </script>
 
 <template>
-  <section class="card" v-if="props.team" :style="`--color-team: ${props.team.color}`">
+  <section
+    class="card"
+    v-if="props.team"
+    :style="`--color-team: ${props.team.color}`"
+  >
     <Logo :class="'iconBack'" />
     <img :src="props.team.picture" class="picture" />
     <div class="name">
@@ -17,7 +21,7 @@ const props = defineProps<Props>();
       <p>{{ props.team.scudery.name }}</p>
     </div>
     <div class="site">
-      <p>{{ props.team.city }}</p>
+      <!-- <p>{{ props.team.city }}</p> -->
       <p>{{ props.team.country.name }}</p>
       <picture v-html="props.team.country.flag.widescreen"></picture>
     </div>
@@ -49,14 +53,24 @@ const props = defineProps<Props>();
   overflow: hidden;
   .iconBack {
     position: absolute;
-    width: 44em;
+    width: 53em;
     height: auto;
     z-index: 2;
     top: 0em;
-    left: 0em;
+    left: -8.7em;
     transform: rotateY(180deg);
     color: var(--color-team);
   }
+  // .iconBack {
+  //   position: absolute;
+  //   width: 44em;
+  //   height: auto;
+  //   z-index: 2;
+  //   top: 0em;
+  //   left: 0em;
+  //   transform: rotateY(180deg);
+  //   color: var(--color-team);
+  // }
 
   .name {
     position: absolute;
@@ -66,12 +80,18 @@ const props = defineProps<Props>();
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    margin: 0.8em;
+    // margin: 0.8em;
+    margin: 1.2em;
     color: white;
     text-transform: uppercase;
     h1 {
       font-size: 1em;
       font-weight: 500;
+      width: 22em;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellips;
+      text-align: end;
     }
     p {
       font-size: 1.2em;
@@ -80,9 +100,10 @@ const props = defineProps<Props>();
   }
   .site {
     position: absolute;
-    display: grid;
+    // display: grid;
     right: 0;
-    top: 5.5em;
+    top: 8em;
+    // top: 5.5em;
     z-index: 2;
     margin: 1.4em 1.2em;
     color: white;
@@ -92,16 +113,18 @@ const props = defineProps<Props>();
     grid-template-rows: 1fr 1fr;
     font-size: 0.8em;
     text-align: end;
+    display: flex;
+
     & > :nth-child(1) {
-      grid-area: 1/1/2/2;
+      // grid-area: 1/1/2/2;
       letter-spacing: 0.08em;
     }
     & > :nth-child(2) {
-      grid-area: 2/1/3/2;
+      // grid-area: 2/1/3/2;
       font-family: "f1B";
     }
     picture {
-      grid-area: 1/2/3/3;
+      // grid-area: 1/2/3/3;
       height: 1.6em;
       display: flex;
       margin: auto;
