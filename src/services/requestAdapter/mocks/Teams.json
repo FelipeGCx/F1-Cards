@@ -13,7 +13,7 @@
         "color": "#18023e",
         "country": {
           "id": 0,
-          "name": "united kingdom",
+          "name": "austria",
           "iso": "gbr",
           "flag": {
             "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#012169' d='M.33.6h640v480H.33V.6Z' /><path fill='#fff' d='m75.33.6 244 181 243-181h78v62l-240 179 240 178v61h-80l-240-179-239 179h-81v-60l239-178-239-178V.6h75Z' /><path fill='#C8102E' d='m424.33 281.6 216 159v40l-271-199h55Zm-184 20 6 35-192 144h-54l240-179Zm400-301v3l-249 188 2-44 197-147h50ZM.33.6l239 176h-60l-179-134V.6Z' /><path fill='#fff' d='M241.33.6v480h160V.6h-160Zm-241 160v160h640v-160H.33Z' /><path fill='#C8102E' d='M.33 193.6v96h640v-96H.33Zm273-193v480h96V.6h-96Z' /></svg>",
@@ -63,7 +63,7 @@
         "color": "#009688",
         "country": {
           "id": 0,
-          "name": "italy",
+          "name": "germany",
           "iso": "ita",
           "flag": {
             "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#012169' d='M.33.6h640v480H.33V.6Z' /><path fill='#fff' d='m75.33.6 244 181 243-181h78v62l-240 179 240 178v61h-80l-240-179-239 179h-81v-60l239-178-239-178V.6h75Z' /><path fill='#C8102E' d='m424.33 281.6 216 159v40l-271-199h55Zm-184 20 6 35-192 144h-54l240-179Zm400-301v3l-249 188 2-44 197-147h50ZM.33.6l239 176h-60l-179-134V.6Z' /><path fill='#fff' d='M241.33.6v480h160V.6h-160Zm-241 160v160h640v-160H.33Z' /><path fill='#C8102E' d='M.33 193.6v96h640v-96H.33Zm273-193v480h96V.6h-96Z' /></svg>",
@@ -88,7 +88,7 @@
         "color": "#0088c6",
         "country": {
           "id": 0,
-          "name": "italy",
+          "name": "france",
           "iso": "ita",
           "flag": {
             "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#012169' d='M.33.6h640v480H.33V.6Z' /><path fill='#fff' d='m75.33.6 244 181 243-181h78v62l-240 179 240 178v61h-80l-240-179-239 179h-81v-60l239-178-239-178V.6h75Z' /><path fill='#C8102E' d='m424.33 281.6 216 159v40l-271-199h55Zm-184 20 6 35-192 144h-54l240-179Zm400-301v3l-249 188 2-44 197-147h50ZM.33.6l239 176h-60l-179-134V.6Z' /><path fill='#fff' d='M241.33.6v480h160V.6h-160Zm-241 160v160h640v-160H.33Z' /><path fill='#C8102E' d='M.33 193.6v96h640v-96H.33Zm273-193v480h96V.6h-96Z' /></svg>",
@@ -113,7 +113,7 @@
         "color": "#ff8800",
         "country": {
           "id": 0,
-          "name": "italy",
+          "name": "united kingdom",
           "iso": "ita",
           "flag": {
             "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#012169' d='M.33.6h640v480H.33V.6Z' /><path fill='#fff' d='m75.33.6 244 181 243-181h78v62l-240 179 240 178v61h-80l-240-179-239 179h-81v-60l239-178-239-178V.6h75Z' /><path fill='#C8102E' d='m424.33 281.6 216 159v40l-271-199h55Zm-184 20 6 35-192 144h-54l240-179Zm400-301v3l-249 188 2-44 197-147h50ZM.33.6l239 176h-60l-179-134V.6Z' /><path fill='#fff' d='M241.33.6v480h160V.6h-160Zm-241 160v160h640v-160H.33Z' /><path fill='#C8102E' d='M.33 193.6v96h640v-96H.33Zm273-193v480h96V.6h-96Z' /></svg>",
@@ -138,7 +138,7 @@
         "color": "#8e0606",
         "country": {
           "id": 0,
-          "name": "italy",
+          "name": "switzerland",
           "iso": "ita",
           "flag": {
             "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#012169' d='M.33.6h640v480H.33V.6Z' /><path fill='#fff' d='m75.33.6 244 181 243-181h78v62l-240 179 240 178v61h-80l-240-179-239 179h-81v-60l239-178-239-178V.6h75Z' /><path fill='#C8102E' d='m424.33 281.6 216 159v40l-271-199h55Zm-184 20 6 35-192 144h-54l240-179Zm400-301v3l-249 188 2-44 197-147h50ZM.33.6l239 176h-60l-179-134V.6Z' /><path fill='#fff' d='M241.33.6v480h160V.6h-160Zm-241 160v160h640v-160H.33Z' /><path fill='#C8102E' d='M.33 193.6v96h640v-96H.33Zm273-193v480h96V.6h-96Z' /></svg>",
@@ -163,7 +163,7 @@
         "color": "#009688",
         "country": {
           "id": 0,
-          "name": "italy",
+          "name": "united kingdom",
           "iso": "ita",
           "flag": {
             "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#012169' d='M.33.6h640v480H.33V.6Z' /><path fill='#fff' d='m75.33.6 244 181 243-181h78v62l-240 179 240 178v61h-80l-240-179-239 179h-81v-60l239-178-239-178V.6h75Z' /><path fill='#C8102E' d='m424.33 281.6 216 159v40l-271-199h55Zm-184 20 6 35-192 144h-54l240-179Zm400-301v3l-249 188 2-44 197-147h50ZM.33.6l239 176h-60l-179-134V.6Z' /><path fill='#fff' d='M241.33.6v480h160V.6h-160Zm-241 160v160h640v-160H.33Z' /><path fill='#C8102E' d='M.33 193.6v96h640v-96H.33Zm273-193v480h96V.6h-96Z' /></svg>",
@@ -188,7 +188,7 @@
         "color": "#dc2e2e",
         "country": {
           "id": 0,
-          "name": "italy",
+          "name": "united states",
           "iso": "ita",
           "flag": {
             "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#012169' d='M.33.6h640v480H.33V.6Z' /><path fill='#fff' d='m75.33.6 244 181 243-181h78v62l-240 179 240 178v61h-80l-240-179-239 179h-81v-60l239-178-239-178V.6h75Z' /><path fill='#C8102E' d='m424.33 281.6 216 159v40l-271-199h55Zm-184 20 6 35-192 144h-54l240-179Zm400-301v3l-249 188 2-44 197-147h50ZM.33.6l239 176h-60l-179-134V.6Z' /><path fill='#fff' d='M241.33.6v480h160V.6h-160Zm-241 160v160h640v-160H.33Z' /><path fill='#C8102E' d='M.33 193.6v96h640v-96H.33Zm273-193v480h96V.6h-96Z' /></svg>",
@@ -238,7 +238,7 @@
         "color": "#00BCD4",
         "country": {
           "id": 0,
-          "name": "italy",
+          "name": "united kingdom",
           "iso": "ita",
           "flag": {
             "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#012169' d='M.33.6h640v480H.33V.6Z' /><path fill='#fff' d='m75.33.6 244 181 243-181h78v62l-240 179 240 178v61h-80l-240-179-239 179h-81v-60l239-178-239-178V.6h75Z' /><path fill='#C8102E' d='m424.33 281.6 216 159v40l-271-199h55Zm-184 20 6 35-192 144h-54l240-179Zm400-301v3l-249 188 2-44 197-147h50ZM.33.6l239 176h-60l-179-134V.6Z' /><path fill='#fff' d='M241.33.6v480h160V.6h-160Zm-241 160v160h640v-160H.33Z' /><path fill='#C8102E' d='M.33 193.6v96h640v-96H.33Zm273-193v480h96V.6h-96Z' /></svg>",
