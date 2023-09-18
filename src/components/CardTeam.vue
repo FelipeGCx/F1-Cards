@@ -118,6 +118,7 @@ const props = defineProps<Props>();
     & > :nth-child(1) {
       // grid-area: 1/1/2/2;
       letter-spacing: 0.08em;
+      line-height: 1.6em;
     }
     & > :nth-child(2) {
       // grid-area: 2/1/3/2;
