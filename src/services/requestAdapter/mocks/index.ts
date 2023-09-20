@@ -1,6 +1,7 @@
 import Error from "./Error.json";
 import Driver from "./Driver.json";
+import Drivers from "./Drivers.json";
 import Team from "./Team.json";
 import Teams from "./Teams.json";
 
-export { Error, Driver, Team, Teams};
+export { Error, Driver,Drivers, Team, Teams};

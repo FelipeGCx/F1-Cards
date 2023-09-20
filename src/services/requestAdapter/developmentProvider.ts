@@ -1,13 +1,15 @@
 import { Response } from "../../types";
 import { RequestProvider } from "./requestProvider";
-import { Error, Driver, Team, Teams } from "./mocks";
-import { DRIVER, TEAM, TEAMS } from "../../constants";
+import { Error, Driver, Drivers, Team, Teams } from "./mocks";
+import { DRIVER, DRIVERS, TEAM, TEAMS } from "../../constants";
 
 export class DevelopmentProvider implements RequestProvider {
   async getRequest(url: string, _headers?: string): Promise<Response> {
     switch (url) {
       case DRIVER:
         return Driver;
+      case DRIVERS:
+        return Drivers;
       case TEAM:
         return Team;
       case TEAMS:
