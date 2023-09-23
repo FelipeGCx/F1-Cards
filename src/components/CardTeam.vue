@@ -30,7 +30,7 @@ const props = defineProps<Props>();
       {{ props.team.engine }}
     </p>
     <div class="logo">
-      <picture v-html="props.team.scudery.logo"> </picture>
+      <picture v-html="props.team.scudery.icon"> </picture>
     </div>
     <div class="f1-logo">
       <Logo :class="'icon'" />
@@ -208,7 +208,8 @@ const props = defineProps<Props>();
     picture {
       display: flex;
       width: auto;
-      height: 3em;
+      height: 4em;
+      color:white;
     }
   }
   .line {
