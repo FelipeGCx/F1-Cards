@@ -54,7 +54,7 @@ const props = defineProps<Props>();
 
 <style scoped lang="scss">
 .card {
-  font-size: 2rem;
+  font-size: 1.2rem;
   width: 20em;
   aspect-ratio: 0.72/1;
   display: flex;
@@ -83,11 +83,11 @@ const props = defineProps<Props>();
   }
   .picture {
     position: absolute;
-    width: 33em;
+    width: 28em;
     height: auto;
     z-index: 3;
-    right: -10em;
-    top: 1em;
+    right: -8em;
+    top: 0;
   }
   .details {
     position: absolute;
