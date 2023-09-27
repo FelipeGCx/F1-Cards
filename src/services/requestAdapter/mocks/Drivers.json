@@ -8,7 +8,7 @@
         "firstname": "max",
         "lastname": "verstappen",
         "nickname": "supermax",
-        "birth": "07/06/1985",
+        "birth": "30/09/1997",
         "picture": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fimage%2025.png?alt=media&token=7da74322-fa73-45a7-856e-2bde43d7de00",
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/verstappen.png",
         "number": {
@@ -36,12 +36,12 @@
           }
         },
         "death": null,
-        "races": 322,
-        "victories": 103,
-        "championships": 7,
-        "podiums": 195,
-        "points": 4553.5,
-        "debut": "18/03/2007",
+        "races": 179,
+        "victories": 48,
+        "championships": 2,
+        "podiums": 92,
+        "points": 2411.5,
+        "debut": "03/10/2014",
         "retire": null,
         "country": {
           "id": 0,
