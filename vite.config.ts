@@ -7,13 +7,10 @@ export default defineConfig({
   plugins: [vue()],
   css: {
     preprocessorOptions: {
-      sass: {
+      scss: {
         additionalData: `
-         @import "@/sass/_variables.scss";
-         @import "@/sass/_normalize.scss";
-         @import "@/sass/_components.scss";
-         @import "@/sass/_mixins.scss";
-         `,
+        @import "src/styles/_normalize.scss";
+        `,
       },
     },
   },
