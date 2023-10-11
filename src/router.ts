@@ -2,6 +2,11 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
+    path: "/drivers",
+    name: "drivers",
+    component: () => import("./views/drivers/index.vue"),
+  },
+  {
     path: "/countries",
     name: "countries",
     component: () => import("./views/countries/index.vue"),
