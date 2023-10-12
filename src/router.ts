@@ -7,6 +7,11 @@ const routes = [
     component: () => import("./views/drivers/index.vue"),
   },
   {
+    path: "/cars",
+    name: "cars",
+    component: () => import("./views/cars/index.vue"),
+  },
+  {
     path: "/countries",
     name: "countries",
     component: () => import("./views/countries/index.vue"),
