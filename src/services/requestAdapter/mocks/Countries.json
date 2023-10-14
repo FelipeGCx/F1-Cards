@@ -107,8 +107,8 @@
         "name": "Armenia",
         "iso": "ARM",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#D90012' d='M0 0h640v160H0V0Z'/><path fill='#0033A0' d='M0 160h640v160H0V160Z'/><path fill='#F2A800' d='M0 320h640v160H0V320Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#D90012' d='M0 0h853.33v160H0V0Z'/><path fill='#0033A0' d='M0 160h853.33v160H0V160Z'/><path fill='#F2A800' d='M0 320h853.33v160H0V320Z'/></svg>"
         }
       },
       {
