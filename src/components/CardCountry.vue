@@ -10,8 +10,8 @@
       v-if="props.country.flag.widescreen"
       v-html="props.country.flag.widescreen"
     ></picture>
-      <h3>{{ props.country.name }}</h3>
-      <p>{{ props.country.iso }}</p>
+    <h3>{{ props.country.name }}</h3>
+    <p>{{ props.country.iso }}</p>
   </div>
 </template>
 
@@ -34,7 +34,7 @@ const props = defineProps<Props>();
     height: 3rem;
     display: block;
     margin: auto;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     overflow: hidden;
     &.fs {
       aspect-ratio: 4/3;
@@ -42,6 +42,9 @@ const props = defineProps<Props>();
     &.ws {
       aspect-ratio: 16/9;
     }
+  }
+  h3 {
+    text-align: center;
   }
 }
 </style>
