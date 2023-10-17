@@ -134,8 +134,8 @@
         "name": "Austria",
         "iso": "AUT",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' fill-rule='evenodd' d='M640 480H0V0h640v480Z' clip-rule='evenodd'/><path fill='#C8102E' fill-rule='evenodd' d='M640 480H0V320h640v160Zm0-319.9H0V.1h640v160Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' fill-rule='evenodd' d='M853.33 480H0V0h853.33v480Z' clip-rule='evenodd'/><path fill='#C8102E' fill-rule='evenodd' d='M853.33 480H0V320h853.33v160Zm0-319.9H0V.1h853.33v160Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
