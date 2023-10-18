@@ -143,8 +143,8 @@
         "name": "Azerbaijan",
         "iso": "AZE",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#3F9C35' d='M0 0h640v480H0V0Z'/><path fill='#ED2939' d='M0 0h640v320H0V0Z'/><path fill='#00B9E4' d='M0 0h640v160H0V0Z'/><path fill='#fff' fill-rule='evenodd' d='M303.9 312a71.9 71.9 0 0 0 57.52-28.68 60 60 0 1 1 0-86.63A72 72 0 1 0 303.9 312Z' clip-rule='evenodd'/><path fill='#fff' d='m383.9 200 7.7 21.5 20.6-9.8-9.8 20.7 21.5 7.6-21.5 7.7 9.8 20.6-20.6-9.8-7.7 21.5-7.7-21.5-20.6 9.8 9.8-20.6-21.5-7.7 21.5-7.7-9.8-20.6 20.6 9.8 7.7-21.5Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#3F9C35' d='M0 0h853.33v480H0V0Z'/><path fill='#ED2939' d='M0 0h853.33v320H0V0Z'/><path fill='#00B9E4' d='M0 0h853.33v160H0V0Z'/><path fill='#fff' fill-rule='evenodd' d='M402.67 312a71.89 71.89 0 0 0 57.52-28.68 60 60 0 1 1 0-86.63A72 72 0 1 0 402.67 312Z' clip-rule='evenodd'/><path fill='#fff' d='m482.67 200 7.7 21.5 20.6-9.8-9.8 20.7 21.5 7.6-21.5 7.7 9.8 20.6-20.6-9.8-7.7 21.5-7.7-21.5-20.6 9.8 9.8-20.6-21.5-7.7 21.5-7.7-9.8-20.6 20.6 9.8 7.7-21.5Z'/></svg>"
         }
       },
       {
