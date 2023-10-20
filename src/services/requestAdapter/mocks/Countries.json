@@ -161,8 +161,8 @@
         "name": "Bahrain",
         "iso": "BHR",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' d='M0 0h640v480H0'/><path fill='#CE1126' d='M640 0H96l110.7 48L96 96l110.7 48L96 192l110.7 48L96 288l110.7 48L96 384l110.7 48L96 480h544'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' d='M0 0h853.33v480H0'/><path fill='#CE1126' d='M853.33 0H128l147.6 48L128 96l147.6 48L128 192l147.6 48L128 288l147.6 48L128 384l147.6 48L128 480h725.33'/></svg>"
         }
       },
       {
