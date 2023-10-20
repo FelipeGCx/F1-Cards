@@ -152,8 +152,8 @@
         "name": "Bahamas",
         "iso": "BHS",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#00778B' d='M0 0h640v480H0z'/><path fill='#FFC72C' d='M0 160h640v160H0z'/><path fill='#000' d='M240 240 0 0v480l240-240Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#00778B' d='M0 0h853.33v480H0z'/><path fill='#FFC72C' d='M0 160h853.33v160H0z'/><path fill='#000' d='M320 240 0 0v480l320-240Z'/></svg>"
         }
       },
       {
