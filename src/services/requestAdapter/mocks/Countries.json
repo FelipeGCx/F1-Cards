@@ -170,8 +170,8 @@
         "name": "Bangladesh",
         "iso": "BGD",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#006A4E' d='M0 0h640v480H0V0Z'/><path fill='#F42A41' d='M280 400c88.37 0 160-71.63 160-160S368.37 80 280 80s-160 71.63-160 160 71.63 160 160 160Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#006A4E' d='M0 0h853.33v480H0V0Z'/><path fill='#F42A41' d='M320 400c88.37 0 160-71.63 160-160S408.37 80 320 80s-160 71.63-160 160 71.63 160 160 160Z'/></svg>"
         }
       },
       {
