@@ -9,13 +9,16 @@ const props = defineProps<Props>();
 </script>
 
 <template>
-  <div class="card" v-if="props.driver">
+  <div
+    class="card"
+    v-if="props.driver"
+    :style="`--color-team: ${props.driver.team.color}`"
+  >
     <Logo :class="'icon'" />
     <Logo :class="'iconBack'" />
     <img :src="props.driver.picture" class="picture" />
     <div class="names">
-      <!-- <picture v-html="props.driver.team.scudery.icon" class="team-icon"> </picture> -->
-      <img :src="props.driver.team.scudery.icon" alt="" class="team-icon" />
+      <picture v-html="props.driver.team.scudery.icon" class="team-icon"> </picture>
       <picture v-html="props.driver.country.flag.widescreen" class="country">
       </picture>
       <p class="firstname">{{ props.driver.firstname }}</p>
@@ -67,7 +70,7 @@ const props = defineProps<Props>();
     position: absolute;
     width: 64em;
     height: auto;
-    color: #1f1f24;
+    color: var(--color-team);
     z-index: 1;
     top: 0em;
     right: -12em;
