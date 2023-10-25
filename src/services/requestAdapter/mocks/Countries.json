@@ -197,8 +197,8 @@
         "name": "Belgium",
         "iso": "BEL",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#000' fill-rule='evenodd' d='M0 0h213.3v480H0V0Z' clip-rule='evenodd'/><path fill='#FFD90C' fill-rule='evenodd' d='M213.3 0h213.4v480H213.3V0Z' clip-rule='evenodd'/><path fill='#F31830' fill-rule='evenodd' d='M426.7 0H640v480H426.7V0Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#000' fill-rule='evenodd' d='M0 0h284.4v480H0V0Z' clip-rule='evenodd'/><path fill='#FFD90C' fill-rule='evenodd' d='M284.4 0h284.53v480H284.4V0Z' clip-rule='evenodd'/><path fill='#F31830' fill-rule='evenodd' d='M568.93 0h284.4v480h-284.4V0Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
