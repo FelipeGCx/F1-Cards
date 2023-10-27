@@ -215,8 +215,8 @@
         "name": "Benin",
         "iso": "BEN",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#008751' d='M0 0h249.22v480H0z'/><path fill='#FCD116' d='M249.22 0H640v240H249.22z'/><path fill='#E8112D' d='M249.22 240H640v240H249.22z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#008751' d='M0 0h332.3v480H0z'/><path fill='#FCD116' d='M332.3 0h521.04v240H332.3z'/><path fill='#E8112D' d='M332.3 240h521.04v240H332.3z'/></svg>"
         }
       },
       {
