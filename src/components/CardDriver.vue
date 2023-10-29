@@ -26,7 +26,8 @@ const props = defineProps<Props>();
     </div>
     <div class="details">
       <img :src="props.driver.helmet" alt="" class="helmet" />
-      <img :src="props.driver.number.icon" alt="" class="number" />
+      <picture v-if="props.driver.number.icon.oneColor" v-html="props.driver.number.icon.oneColor" class="number"> </picture>
+      <img v-else :src="props.driver.number.icon.image" alt="" class="number" />
     </div>
     <div class="information">
       <Graph :class="'graph'" />
