@@ -440,8 +440,8 @@
         "name": "Colombia",
         "iso": "COL",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#FFE800' fill-rule='evenodd' d='M0 0h640v480H0V0Z' clip-rule='evenodd'/><path fill='#00148E' fill-rule='evenodd' d='M0 240h640v120H0V240Z' clip-rule='evenodd'/><path fill='#DA0010' fill-rule='evenodd' d='M0 360h640v120H0V360Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#FFE800' fill-rule='evenodd' d='M0 0h853.33v480H0V0Z' clip-rule='evenodd'/><path fill='#00148E' fill-rule='evenodd' d='M0 240h853.33v120H0V240Z' clip-rule='evenodd'/><path fill='#DA0010' fill-rule='evenodd' d='M0 360h853.33v120H0V360Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
