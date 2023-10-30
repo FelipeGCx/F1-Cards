@@ -24,5 +24,12 @@ export type Driver = {
 
 export type DriverNumber = {
   digit: number;
-  icon: string;
+  icon: DriverIcon;
 };
+
+export type DriverIcon = {
+  normal: string;
+  border: string;
+  oneColor: string;
+  image: string;
+}
