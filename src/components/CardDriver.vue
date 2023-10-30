@@ -12,13 +12,14 @@ const props = defineProps<Props>();
   <div
     class="card"
     v-if="props.driver"
-    :style="`--color-team: ${props.driver.team.color}`"
+    :style="`--color-team-primary: ${props.driver.team.color.primary}; --color-team-secondary: ${props.driver.team.color.secondary};`"
   >
     <Logo :class="'icon'" />
     <Logo :class="'iconBack'" />
     <img :src="props.driver.picture" class="picture" />
     <div class="names">
-      <picture v-html="props.driver.team.scudery.icon" class="team-icon"> </picture>
+      <picture v-html="props.driver.team.scudery.icon" class="team-icon">
+      </picture>
       <picture v-html="props.driver.country.flag.widescreen" class="country">
       </picture>
       <p class="firstname">{{ props.driver.firstname }}</p>
@@ -26,7 +27,12 @@ const props = defineProps<Props>();
     </div>
     <div class="details">
       <img :src="props.driver.helmet" alt="" class="helmet" />
-      <picture v-if="props.driver.number.icon.oneColor" v-html="props.driver.number.icon.oneColor" class="number"> </picture>
+      <picture
+        v-if="props.driver.number.icon.oneColor"
+        v-html="props.driver.number.icon.oneColor"
+        class="number"
+      >
+      </picture>
       <img v-else :src="props.driver.number.icon.image" alt="" class="number" />
     </div>
     <div class="information">
@@ -71,7 +77,7 @@ const props = defineProps<Props>();
     position: absolute;
     width: 64em;
     height: auto;
-    color: var(--color-team);
+    color: var(--color-team-primary);
     z-index: 1;
     top: 0em;
     right: -12em;
@@ -110,6 +116,7 @@ const props = defineProps<Props>();
       height: auto;
       right: -3em;
       bottom: -1em;
+      color: var(--color-team-secondary)
     }
   }
   .names {
