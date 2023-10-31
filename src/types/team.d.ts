@@ -7,8 +7,13 @@ export type Team = {
   chasis: string;
   engine: string;
   city: string;
-  color: string;
+  color: ColorTeam;
   country: Country;
   scudery: Scudery;
   season: number;
+};
+
+export type ColorTeam = {
+  primary: string;
+  secondary: string;
 };
