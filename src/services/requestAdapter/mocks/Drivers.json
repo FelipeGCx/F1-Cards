@@ -75,6 +75,9 @@
         "number": {
           "digit": 11,
           "icon": {
+            "normal": "<svg xmlns='http://www.w3.org/2000/svg' fill='#E30A20' viewBox='0 0 623 350'><path d='M515.1 325.86V24.14H391.39l-73.92 40.73 45.25 60.34 46.77-27.15v227.8h105.6ZM303.89 325.86V24.14h-123.7l-73.93 40.73 45.26 60.34 46.76-27.15v227.8h105.6Z'/></svg>",
+            "border": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 622 350'><path  fill-rule='evenodd' d='M409.04 325.86h105.6V24.14h-123.7l-73.92 40.73 45.26 60.34 46.76-27.15v227.8ZM363.88 117.3l51.2-29.72v232.25h93.53V30.17H392.5L326.01 66.8l37.88 50.5ZM197.84 325.86h105.6V24.14h-123.7L105.8 64.87l45.26 60.34 46.77-27.15v227.8ZM152.68 117.3l51.2-29.72v232.25h93.52V30.17H181.3L114.8 66.8l37.88 50.5Z' clip-rule='evenodd'/></svg>",
+            "oneColor": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 623 350'><path d='M515.2 325.86V24.14H391.5l-73.93 40.73 45.26 60.34 46.77-27.15v227.8h105.6ZM304 325.86V24.14H180.27l-73.92 40.73 45.26 60.34 46.77-27.15v227.8h105.6Z'/></svg>",
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/SERPER01.png.transform/2col/image.png"
           }
         },
@@ -86,7 +89,10 @@
           "chasis": "rb19",
           "engine": "honda",
           "city": "milton keynes",
-          "color": "#001e49",
+          "color": {
+            "primary":  "#001E49",
+            "secondary":  "#3671C6"
+          },
           "country": {
             "id": 0,
             "name": "austria",
