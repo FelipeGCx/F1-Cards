@@ -116,7 +116,7 @@ const props = defineProps<Props>();
       height: auto;
       right: -3em;
       bottom: -1em;
-      color: var(--color-team-secondary)
+      color: white
     }
   }
   .names {
