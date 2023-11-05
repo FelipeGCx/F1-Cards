@@ -20,6 +20,7 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/MAXVER01.png.transform/2col/image.png"
           }
         },
+        "signature":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/MaxVerstappenSignature.png/125px-MaxVerstappenSignature.png",
         "season": 2023,
         "team": {
           "id": 1,
@@ -84,6 +85,7 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/SERPER01.png.transform/2col/image.png"
           }
         },
+        "signature":"https://upload.wikimedia.org/wikipedia/commons/c/ca/Sergio_Perez_signature.png",
         "season": 2023,
         "team": {
           "id": 1,
@@ -148,6 +150,7 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CHALEC01.png.transform/2col/image.png"
           }
         },
+        "signature": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Charles_Leclerc_F1-driver_signature.png/125px-Charles_Leclerc_F1-driver_signature.png",
         "season": 2023,
         "team": {
           "id": 2,
@@ -212,6 +215,7 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CARSAI01.png.transform/2col/image.png"
           }
         },
+        "signature":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/F1divrerCarlosSainz_jr_signature.png/125px-F1divrerCarlosSainz_jr_signature.png",
         "season": 2023,
         "team": {
           "id": 2,
@@ -334,6 +338,7 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LEWHAM01.png.transform/2col/image.png"
           }
         },
+        "signature":"https://upload.wikimedia.org/wikipedia/commons/f/f5/Signature_de_Lewis_Hamilton_png.png",
         "season": 2023,
         "team": {
           "id": 3,
