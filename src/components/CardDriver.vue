@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Driver } from "../types/driver";
-import { Logo, Graph } from "../assets/icons";
+import { Logo } from "../assets/icons";
 
 interface Props {
   driver: Driver | null;
@@ -9,35 +9,29 @@ const props = defineProps<Props>();
 </script>
 
 <template>
-  <div
-    class="card"
-    v-if="props.driver"
-    :style="`--color-team-primary: ${props.driver.team.color.primary}; --color-team-secondary: ${props.driver.team.color.secondary};`"
-  >
-    <Logo :class="'icon'" />
-    <Logo :class="'iconBack'" />
+  <div class="card" v-if="props.driver"
+    :style="`--color-team-primary: ${props.driver.team.color.primary}; --color-team-secondary: ${props.driver.team.color.secondary};`">
+    <Logo class="icon" />
+    <Logo class="iconBack" />
     <img :src="props.driver.picture" class="picture" />
     <div class="names">
       <picture v-html="props.driver.team.scudery.icon" class="team-icon">
       </picture>
-      <picture v-html="props.driver.country.flag.widescreen" class="country">
-      </picture>
+      <div class="line"></div>
       <p class="firstname">{{ props.driver.firstname }}</p>
       <p class="lastname">{{ props.driver.lastname }}</p>
     </div>
     <div class="details">
       <img :src="props.driver.helmet" alt="" class="helmet" />
-      <picture
-        v-if="props.driver.number.icon.oneColor"
-        v-html="props.driver.number.icon.oneColor"
-        class="number"
-      >
+      <picture v-if="props.driver.number.icon.oneColor" v-html="props.driver.number.icon.oneColor" class="number">
       </picture>
       <img v-else :src="props.driver.number.icon.image" alt="" class="number" />
     </div>
     <div class="information">
-      <Graph :class="'graph'" />
-      <Graph :class="'graph'" />
+      <div class="countryContainer">
+        <picture v-html="props.driver.country.flag.widescreen" class="country">
+        </picture>
+      </div>
       <div>
         <p class="title">team:</p>
         <p class="data">{{ props.driver.team.scudery.name }}</p>
@@ -58,6 +52,11 @@ const props = defineProps<Props>();
         <p class="title">points:</p>
         <p class="data">{{ props.driver.points }}</p>
       </div>
+      <div v-if="props.driver.signature" class="signature">
+        <img :src="props.driver.signature">
+      </div>
+      <Logo class="iconInfoBack" />
+
     </div>
   </div>
 </template>
@@ -70,9 +69,10 @@ const props = defineProps<Props>();
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e2e2e2;
+  background-color: white;
   position: relative;
   overflow: hidden;
+
   .iconBack {
     position: absolute;
     width: 64em;
@@ -82,6 +82,7 @@ const props = defineProps<Props>();
     top: 0em;
     right: -12em;
   }
+
   .icon {
     position: absolute;
     width: 16em;
@@ -91,6 +92,7 @@ const props = defineProps<Props>();
     top: 1em;
     left: 1em;
   }
+
   .picture {
     position: absolute;
     width: 28em;
@@ -99,6 +101,7 @@ const props = defineProps<Props>();
     right: -8em;
     top: 0;
   }
+
   .details {
     position: absolute;
     display: flex;
@@ -106,10 +109,12 @@ const props = defineProps<Props>();
     z-index: 4;
     top: 7.2em;
     left: 0em;
+
     .helmet {
       width: 6em;
       height: auto;
     }
+
     .number {
       position: absolute;
       width: 5em;
@@ -119,89 +124,146 @@ const props = defineProps<Props>();
       color: white
     }
   }
+
   .names {
-    background-color: #1f1f24;
-    width: 15em;
+    background-color: #13181F;
+    width: 16em;
     height: fit-content;
     display: grid;
     z-index: 5;
     color: white;
     text-transform: capitalize;
-    padding: 0.4em;
+    padding: 0.2em;
     position: absolute;
     left: 0;
-    bottom: 7.8em;
+    bottom: 8em;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     grid-template-columns: auto auto 1fr;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: auto auto;
     gap: 0 0.4em;
+
     .team-icon {
       width: 3.5em;
       grid-area: 1/1/3/2;
       margin: auto;
       margin-left: 0;
     }
+
+    .line {
+      grid-area: 1/2/3/2;
+      background-color: gray;
+      height: 70%;
+      width: .1em;
+      margin: auto;
+      margin-right: 0.2em;
+    }
+
     .firstname {
-      grid-area: 1/2/2/3;
+      grid-area: 1/3/2/3;
       font-family: "f1R";
-      font-size: 1.2em;
-      margin: auto;
-      margin-left: 0;
+      font-size: 1.1em;
+      margin: auto auto 0 0;
+      line-height: 1em;
     }
+
     .lastname {
-      grid-area: 2/2/3/4;
+      grid-area: 2/3/3/4;
       font-family: "f1B";
-      font-size: 1.2em;
-      margin: auto;
-      margin-left: 0;
+      font-size: 1.3em;
+      margin: 0 auto auto 0;
       text-transform: uppercase;
+      color: var(--color-team-secondary);
+      line-height: 1.3em;
+
     }
-    .country {
-      grid-area: 1/3/2/4;
-      width: 1.5em;
-      display: flex;
+
+    &::after {
+      content: "";
+      background-color: var(--color-team-secondary);
+      height: 0.2em;
+      width: 100%;
+      display: block;
+      position: absolute;
+      bottom: 0;
     }
   }
+
   .information {
     position: absolute;
-    background-color: #333333;
+    background-color: #12151C;
     z-index: 4;
     width: inherit;
-    padding: 3.3em 1.2em 1.2em 1.2em;
+    padding: .35em .35em 1.2em 1.2em;
     bottom: 0;
-    max-height: 10em;
-    min-height: 10em;
+    max-height: 10.4em;
+    min-height: 10.4em;
     text-transform: capitalize;
     color: white;
     font-family: "f1R";
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    .graph {
-      position: absolute;
-      height: 100%;
-      top: 0;
-      color: rgb(110 110 110 / 70%);
-      z-index: 0;
-      &:nth-child(1) {
-        transform: rotateY(180deg);
-        right: -2em;
-      }
-      &:nth-child(2) {
-        left: -2em;
+    gap: .2em;
+
+    .countryContainer {
+      display: flex;
+      justify-content: end;
+      width: 100%;
+      height: fit-content;
+      z-index: 1;
+      padding-bottom: 1em;
+
+      .country {
+        display: flex;
+        width: 4.2em;
+        aspect-ratio: 16/9;
       }
     }
+
+    .signature {
+      position: absolute;
+      height: 3.4em;
+      width: 8.6em;
+      padding: 0.4em 1em;
+      padding-left: 3em;
+      bottom: 0;
+      right: 0;
+      z-index: 2;
+      background-color: white;
+      justify-content: center;
+      clip-path: polygon(32% 0, 100% 0, 100% 100%, 0% 100%);
+
+      img {
+        height: 100%;
+        filter: grayscale(1);
+      }
+    }
+
+    .iconInfoBack {
+      position: absolute;
+      bottom: 0;
+      height: 100%;
+      right: -4.2em;
+      color: #1E2127;
+      transform: rotateX(180deg);
+      z-index: 0;
+    }
+
     div {
       position: relative;
-      font-size: 0.8em;
       display: flex;
-      gap: 0.8em;
+      font-size: 0.8em;
+      gap: 1em;
       height: 1.6em;
-      justify-content: center;
+      justify-content: start;
       align-items: center;
+      z-index: 1;
+
       p {
-        width: 50%;
+        width: 35%;
+        font-size: 1.15em;
+
       }
     }
   }
