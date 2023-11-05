@@ -18,6 +18,7 @@ export type Driver = {
   picture: string;
   helmet: string;
   number: DriverNumber;
+  signature: string;
   season: number;
   team: Team;
 };
