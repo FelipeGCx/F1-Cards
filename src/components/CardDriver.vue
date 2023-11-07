@@ -15,7 +15,9 @@ const props = defineProps<Props>();
     <Logo class="iconBack" />
     <img :src="props.driver.picture" class="picture" />
     <div class="names">
-      <picture v-html="props.driver.team.scudery.icon" class="team-icon">
+      <picture v-if="props.driver.team.scudery.icon.normal" v-html="props.driver.team.scudery.icon.normal" class="team-icon">
+      </picture>
+      <picture v-else v-html="props.driver.team.scudery.icon" class="team-icon">
       </picture>
       <div class="line"></div>
       <p class="firstname">{{ props.driver.firstname }}</p>
