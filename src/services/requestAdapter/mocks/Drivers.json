@@ -539,6 +539,9 @@
         "number": {
           "digit": 4,
           "icon": {
+            "normal": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 622 350'><path fill='#1D1D1B' fill-rule='evenodd' d='M328.88 265.517v60.345h57.327v-60.345h48.276v-51.293h-48.276V24.138h-99.569l-99.569 178.017v63.362H328.88Zm0-205.172v153.879h-89.009v-7.543l81.466-146.336h7.543Z' clip-rule='evenodd'/></svg>",
+            "border": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 623 350'><path fill-rule='evenodd' d='M285.42 21.12h104.356v190.087h48.276v57.327h-48.276v60.345h-63.362v-60.345h-141.81v-67.165L285.42 21.121Zm3.539 6.035-98.321 175.787V262.5h141.81v60.345h51.293V262.5h48.276v-45.259h-48.276V27.155h-94.782Zm31.155 30.172h12.334v159.914h-95.043v-11.343l82.709-148.57Zm3.548 6.035L243.44 207.464v3.743h82.974V63.362h-2.752Z' clip-rule='evenodd'/></svg>",
+            "oneColor": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 622 350'><path fill-rule='evenodd' d='M328.88 265.517v60.345h57.327v-60.345h48.276v-51.293h-48.276V24.138h-99.569l-99.569 178.017v63.362H328.88Zm0-205.172v153.879h-89.009v-7.543l81.466-146.336h7.543Z' clip-rule='evenodd'/></svg>",
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LANNOR01.png.transform/2col/image.png"
           }
         },
