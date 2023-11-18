@@ -859,6 +859,9 @@
         "number": {
           "digit": 14,
           "icon": {
+            "normal": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 622 350'><path fill='#368C76' fill-rule='evenodd' d='M451.08 325.86v-60.34h36.2v-51.3h-36.2V24.14H402.8L248.92 223.28v42.24h147.85v60.34h54.3Zm-54.31-209.7v98.06h-75.43l75.43-98.06Z' clip-rule='evenodd'/><path fill='#368C76' d='M233.84 325.86h-60.35V96.56l-34.7 24.13-6.03-60.35 52.8-36.2h48.28v301.72Z'/></svg>",
+            "border": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 623 350'><path fill='#fff' fill-rule='evenodd' d='M445.6 259.48h36.2v-39.22h-36.2V30.17h-39.28L255.5 225.34v34.14h147.84v60.35h42.25v-60.35Zm6.03 66.38h-54.31v-60.34H249.47v-42.24L403.35 24.14h48.28v190.08h36.2v51.3h-36.2v60.34Zm-48.28-105.6h-93.72l93.72-121.84v121.84Zm-229.3 105.6h60.34V24.14H186.1l-52.8 36.2 6.03 60.35 34.7-24.14v229.31Zm-29.72-215.99L180.08 85v234.83h48.27V30.17h-40.37l-48.3 33.13 4.65 46.57Zm252.99 6.3-75.43 98.05h75.43v-98.06Z' clip-rule='evenodd'/></svg>",
+            "oneColor": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 622 350'><path  fill-rule='evenodd' d='M451.08 325.86v-60.34h36.2v-51.3h-36.2V24.14H402.8L248.92 223.28v42.24h147.85v60.34h54.3Zm-54.31-209.7v98.06h-75.43l75.43-98.06Z' clip-rule='evenodd'/><path  d='M233.84 325.86h-60.35V96.56l-34.7 24.13-6.03-60.35 52.8-36.2h48.28v301.72Z'/></svg>",
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/FERALO01.png.transform/2col/image.png"
           }
         },
