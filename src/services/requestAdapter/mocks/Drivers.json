@@ -138,11 +138,11 @@
         }
       },
       {
-        "id": 2,
+        "id": 3,
         "firstname": "charles",
         "lastname": "leclerc",
         "nickname": null,
-        "birth": "07/06/1985",
+        "birth": "16/10/1997",
         "picture": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fimage%2027.png?alt=media&token=39737f51-ae45-42ef-b8c9-dad4970b0ab4",
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/leclerc.png",
         "number": {
@@ -187,12 +187,12 @@
           "season": 2023
         },
         "death": null,
-        "races": 322,
-        "victories": 103,
-        "championships": 7,
-        "podiums": 195,
-        "points": 4553.5,
-        "debut": "18/03/2007",
+        "races": 125,
+        "victories": 5,
+        "championships": 0,
+        "podiums": 29,
+        "points": 1038,
+        "debut": "29/06/2017",
         "retire": null,
         "country": {
           "id": 0,
