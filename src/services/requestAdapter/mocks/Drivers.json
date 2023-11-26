@@ -20,7 +20,7 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/MAXVER01.png.transform/2col/image.png"
           }
         },
-        "signature": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/MaxVerstappenSignature.png/125px-MaxVerstappenSignature.png",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FVerstappen.png?alt=media&token=029c61ca-1f41-4a1c-a5e4-d16a7af18f56",
         "season": 2023,
         "team": {
           "id": 1,
@@ -87,7 +87,7 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/SERPER01.png.transform/2col/image.png"
           }
         },
-        "signature": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sergio_Perez_signature.png",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FPerez.png?alt=media&token=f7867c98-085f-4b78-bf82-491aacbfa49c",
         "season": 2023,
         "team": {
           "id": 1,
@@ -154,7 +154,7 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CHALEC01.png.transform/2col/image.png"
           }
         },
-        "signature": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Charles_Leclerc_F1-driver_signature.png/125px-Charles_Leclerc_F1-driver_signature.png",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FLeclerc.png?alt=media&token=d020ac11-c07f-4b8f-805e-c6faa4512215",
         "season": 2023,
         "team": {
           "id": 2,
@@ -221,7 +221,7 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CARSAI01.png.transform/2col/image.png"
           }
         },
-        "signature": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/F1divrerCarlosSainz_jr_signature.png/125px-F1divrerCarlosSainz_jr_signature.png",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FSainz.png?alt=media&token=8744c1c7-b649-4f77-af22-22e6133a5007",
         "season": 2023,
         "team": {
           "id": 2,
@@ -288,6 +288,7 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/GEORUS01.png.transform/2col/image.png"
           }
         },
+        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FRussell.png?alt=media&token=06fc4f4b-a595-4906-ab99-a5e6f0b265b9",
         "season": 2023,
         "team": {
           "id": 3,
@@ -352,7 +353,7 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LEWHAM01.png.transform/2col/image.png"
           }
         },
-        "signature": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Signature_de_Lewis_Hamilton_png.png",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FHamilton.png?alt=media&token=fb9bd162-856f-42a1-84fd-3b518876f1cf",
         "season": 2023,
         "team": {
           "id": 3,
