@@ -276,7 +276,7 @@
         "firstname": "george",
         "lastname": "russell",
         "nickname": null,
-        "birth": "07/06/1985",
+        "birth": "15/02/1998",
         "picture": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fimage%2029.png?alt=media&token=93c68144-be82-4541-9440-1194a938b014",
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/russell.png",
         "number": {
@@ -319,12 +319,12 @@
           "season": 2023
         },
         "death": null,
-        "races": 322,
-        "victories": 103,
-        "championships": 7,
-        "podiums": 195,
-        "points": 4553.5,
-        "debut": "18/03/2007",
+        "races": 104,
+        "victories": 1,
+        "championships": 0,
+        "podiums": 11,
+        "points": 450,
+        "debut": "17/03/2019",
         "retire": null,
         "country": {
           "id": 0,
