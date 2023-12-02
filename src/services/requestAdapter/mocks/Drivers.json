@@ -679,6 +679,7 @@
           }
         },
         "season": 2023,
+        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FBottas.png?alt=media&token=6ea2e1d1-06cb-408e-9c63-3dcfe32c76b8",
         "team": {
           "id": 6,
           "name": "alfa romeo f1 team stake",
@@ -1307,4 +1308,4 @@
   "meta": {
     "version": "v1"
   }
-}
+} 
