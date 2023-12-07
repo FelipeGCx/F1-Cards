@@ -809,7 +809,7 @@
           }
         },
         "season": 2023,
-        "signature":"https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FStroll.png?alt=media&token=45009e13-57bc-4729-9fac-9a3f8d507ae5",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FStroll.png?alt=media&token=45009e13-57bc-4729-9fac-9a3f8d507ae5",
         "team": {
           "id": 7,
           "name": "aston martin aramco cognizant f1 team",
@@ -874,7 +874,7 @@
           }
         },
         "season": 2023,
-        "signature":"https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FAlonso.png?alt=media&token=17794e74-8eb2-414b-9b54-e0d7c8522993",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FAlonso.png?alt=media&token=17794e74-8eb2-414b-9b54-e0d7c8522993",
         "team": {
           "id": 7,
           "name": "aston martin aramco cognizant f1 team",
@@ -939,7 +939,7 @@
           }
         },
         "season": 2023,
-        "signature":"https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FMagnussen.png?alt=media&token=54055728-1c60-4bfb-9384-1dcc15c4d00d",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FMagnussen.png?alt=media&token=54055728-1c60-4bfb-9384-1dcc15c4d00d",
         "team": {
           "id": 8,
           "name": "uralkali haas f1 team",
@@ -1004,6 +1004,7 @@
           }
         },
         "season": 2023,
+        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FHulkenberg.png?alt=media&token=8904d542-1ed9-41c0-bcaa-02d725aba97d",
         "team": {
           "id": 8,
           "name": "uralkali haas f1 team",
