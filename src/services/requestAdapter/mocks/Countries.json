@@ -754,9 +754,10 @@
         "id": 83,
         "name": "Germany",
         "iso": "DEU",
+        
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+            "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#FFCE00' d='M.33 320.72h640v160H.33v-160Z'/><path fill='#000' d='M.33.72h640v160H.33V.72Z'/><path fill='#D00' d='M.33 160.72h640v160H.33v-160Z'/></svg>",
+            "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 481'><path fill='#FFCE00' d='M.33 320.72h853.33v160H.33v-160Z'/><path fill='#000' d='M.33.72h853.33v160H.33V.72Z'/><path fill='#D00' d='M.33 160.72h853.33v160H.33v-160Z'/></svg>"
         }
       },
       {
