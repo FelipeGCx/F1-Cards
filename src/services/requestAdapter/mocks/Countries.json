@@ -548,8 +548,8 @@
         "name": "Denmark",
         "iso": "DNK",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#C8102E' d='M.32.72h640v480H.32V.72Z'/><path fill='#fff' fill-rule='evenodd' d='M274.58.72h-68.6v205.7H.33v68.6h205.67v205.7h68.59v-205.7h365.74v-68.6H274.58V.72Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 481'><path fill='#C8102E' d='M.32.72h853.33v480H.32V.72Z'/><path fill='#fff' fill-rule='evenodd' d='M366 .72h-91.46v205.7H.32v68.6h274.22v205.7H366v-205.7h487.66v-68.6H365.99V.72Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
@@ -754,10 +754,10 @@
         "id": 83,
         "name": "Germany",
         "iso": "DEU",
-        
+
         "flag": {
-            "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#FFCE00' d='M.33 320.72h640v160H.33v-160Z'/><path fill='#000' d='M.33.72h640v160H.33V.72Z'/><path fill='#D00' d='M.33 160.72h640v160H.33v-160Z'/></svg>",
-            "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 481'><path fill='#FFCE00' d='M.33 320.72h853.33v160H.33v-160Z'/><path fill='#000' d='M.33.72h853.33v160H.33V.72Z'/><path fill='#D00' d='M.33 160.72h853.33v160H.33v-160Z'/></svg>"
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#FFCE00' d='M.33 320.72h640v160H.33v-160Z'/><path fill='#000' d='M.33.72h640v160H.33V.72Z'/><path fill='#D00' d='M.33 160.72h640v160H.33v-160Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 481'><path fill='#FFCE00' d='M.33 320.72h853.33v160H.33v-160Z'/><path fill='#000' d='M.33.72h853.33v160H.33V.72Z'/><path fill='#D00' d='M.33 160.72h853.33v160H.33v-160Z'/></svg>"
         }
       },
       {
