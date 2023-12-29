@@ -683,8 +683,8 @@
         "name": "Finland",
         "iso": "FIN",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#fff' d='M.99.72h640v480H.99V.72Z'/><path fill='#002F6C' fill-rule='evenodd' d='M307.4.72H176.5l-.05 174.5H1v131h175.44l-.04 174.5h131v-174.5H641v-131h-333.6V.72Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 855 481'><path fill='#fff' d='M.99.72h853.33v480H.99V.72Z'/><path fill='#002F6C' fill-rule='evenodd' d='M409.52.72H235l-.05 174.5H1v131H234.9l-.04 174.5h174.66v-174.5h444.8v-131h-444.8V.72Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
