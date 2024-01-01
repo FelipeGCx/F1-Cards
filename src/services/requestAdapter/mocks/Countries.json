@@ -692,8 +692,8 @@
         "name": "France",
         "iso": "FRA",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#fff' d='M213.664.719h213.333v480H213.664v-480Z'/><path fill='#002654' d='M.33.719h213.333v480H.33v-480Z'/><path fill='#CE1126' d='M426.998.719h213.333v480H426.998v-480Z'/></svg>",
+          "widescreen": "<svg viewBox='0 0 854 481' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M284.766 0.71875H569.208V480.719H284.766V0.71875Z' fill='white'/><path d='M0.322266 0.71875H284.765V480.719H0.322266V0.71875Z' fill='#002654'/><path d='M569.209 0.71875H853.652V480.719H569.209V0.71875Z' fill='#CE1126'/></svg>"
         }
       },
       {
