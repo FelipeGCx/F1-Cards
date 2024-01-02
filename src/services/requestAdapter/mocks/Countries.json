@@ -1656,8 +1656,8 @@
         "name": "Russia",
         "iso": "RUS",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' fill-rule='evenodd' d='M0 0h640v480H0V0Z' clip-rule='evenodd'/><path fill='#0039A6' fill-rule='evenodd' d='M0 160h640v320H0V160Z' clip-rule='evenodd'/><path fill='#D52B1E' fill-rule='evenodd' d='M0 320h640v160H0V320Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' fill-rule='evenodd' d='M0 0h853.333v480H0V0Z' clip-rule='evenodd'/><path fill='#0039A6' fill-rule='evenodd' d='M0 160h853.333v320H0V160Z' clip-rule='evenodd'/><path fill='#D52B1E' fill-rule='evenodd' d='M0 320h853.333v160H0V320Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
