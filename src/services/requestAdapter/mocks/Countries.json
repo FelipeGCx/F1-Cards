@@ -485,8 +485,8 @@
         "name": "Costa Rica",
         "iso": "CRI",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 481'><path fill='#0000B4' fill-rule='evenodd' d='M0 .719h640v480H0v-480Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 76.119h640v322.3H0v-322.3Z' clip-rule='evenodd'/><path fill='#D90000' fill-rule='evenodd' d='M0 158.419h640v157.7H0v-157.7Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 481'><path fill='#0000B4' fill-rule='evenodd' d='M0 .719h853.33v480H0v-480Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 76.119h853.33v322.3H0v-322.3Z' clip-rule='evenodd'/><path fill='#D90000' fill-rule='evenodd' d='M0 158.419h853.33v157.7H0v-157.7Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
