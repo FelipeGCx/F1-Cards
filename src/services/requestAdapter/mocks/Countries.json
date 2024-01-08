@@ -1008,8 +1008,8 @@
         "name": "Jamaica",
         "iso": "JAM",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 481'><path fill='#000' d='M0 .228h640v480H0z'/><path fill='#090' fill-rule='evenodd' d='m0 .228 320 240 320-240H0Zm0 480 320-240 320 240H0Z' clip-rule='evenodd'/><path fill='#FC0' d='M640 .228h-59.6L320 195.528 59.6.228H0v44.7l260.4 195.3L0 435.528v44.7h59.6l260.4-195.3 260.4 195.3H640v-44.7l-260.4-195.3L640 44.928V.228Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 481'><path fill='#000' d='M0 .228h853.33v480H0z'/><path fill='#090' fill-rule='evenodd' d='m0 .228 426.665 240L853.33.228H0Zm0 480 426.665-240 426.665 240H0Z' clip-rule='evenodd'/><path fill='#FC0' d='M853.33.228h-79.466l-347.199 195.3L79.466.228H0v44.7l347.199 195.3L0 435.528v44.7h79.466l347.199-195.3 347.199 195.3h79.466v-44.7l-347.199-195.3 347.199-195.3V.228Z'/></svg>"
         }
       },
       {
