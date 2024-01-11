@@ -783,8 +783,8 @@
         "name": "Greece",
         "iso": "GRC",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#0D5EAF' d='M0 0h640v480H0z'/><path fill='#fff' fill-rule='evenodd' d='M266.7 213.3v-53.301H640V213.3H266.7Z' clip-rule='evenodd'/><path fill='#fff' d='M640 106.699V53.301H266.7v53.398H640Z'/><path fill='#fff' fill-rule='evenodd' d='M0 373.301h640v53.4H0v-53.4Z' clip-rule='evenodd'/><path fill='#fff' d='M266.7 106.701v-.002H159.999V0h-53.3v106.699H0v53.3h106.699V266.7L0 266.699v53.3h640v-53.3l-480.001.001V159.999H266.7v-53.298Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#0D5EAF' d='M0 0h853.33v480H0z'/><path fill='#fff' fill-rule='evenodd' d='M355.599 213.3v-53.301H853.33V213.3H355.599Z' clip-rule='evenodd'/><path fill='#fff' d='M853.33 106.699V53.301H355.599v53.398H853.33Z'/><path fill='#fff' fill-rule='evenodd' d='M0 373.301h853.33v53.4H0v-53.4Z' clip-rule='evenodd'/><path fill='#fff' d='M355.599 106.701v-.002H213.331V0h-71.066v106.699H0v53.3h142.265V266.7L0 266.699v53.3h853.33v-53.3l-639.999.001V159.999h142.268v-53.298Z'/></svg>"
         }
       },
       {
