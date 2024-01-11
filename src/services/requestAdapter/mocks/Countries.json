@@ -1467,8 +1467,8 @@
         "name": "Nigeria",
         "iso": "NGA",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 481'><path fill='#fff' fill-rule='evenodd' d='M0 0h640v480H0V0Z' clip-rule='evenodd'/><path fill='#008753' fill-rule='evenodd' d='M427 0h213v480H427V0ZM0 0h213v480H0V0Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 481'><path fill='#fff' fill-rule='evenodd' d='M0 0h853v480H0V0Z' clip-rule='evenodd'/><path fill='#008753' fill-rule='evenodd' d='M569 0h284v480H569V0ZM0 0h284v480H0V0Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
