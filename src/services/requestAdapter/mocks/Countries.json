@@ -2052,8 +2052,8 @@
         "name": "Türkiye",
         "iso": "TUR",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 481'><path fill='#E30A17' fill-rule='evenodd' d='M0 0h640v480H0V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M285 367c44 0 82-22 103-56a98 98 0 0 1-170-64c0-53 44-95 98-95 28 0 54 12 72 31-21-33-60-55-103-55-67 0-122 53-122 119 0 67 55 120 122 120ZM431 192l-1 44-42 11 41 15-1 40 27-32 40 14-23-34 28-34-43 12-26-37v1Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 481'><path fill='#E30A17' fill-rule='evenodd' d='M0 0h853v480H0V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M380 360c44 0 82-23 103-56a98 98 0 0 1-170-64c0-53 44-96 98-96 28 0 54 12 72 32-21-34-60-56-103-56-67 0-122 54-122 120s55 120 122 120ZM526 184l-1 44-42 11 41 15-1 41 27-32 40 14-23-34 28-34-43 12-26-37Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
