@@ -1386,8 +1386,8 @@
         "name": "Myanmar",
         "iso": "MMR",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 481'><path fill='#FECB00' d='M0 1h640v480H0V1Z'/><path fill='#34B233' d='M0 161h640v320H0V161Z'/><path fill='#EA2839' d='M0 321h640v160H0V321Z'/><path fill='#fff' d='m320 81 53 176H267l53-176Z'/><path fill='#fff' d='m216 401 61-175 86 63-147 112Z'/><path fill='#fff' d='m152 203 184 4-32 101-152-105Z'/><path fill='#fff' d='M488 203 336 308l-32-101 184-4Z'/><path fill='#fff' d='M424 401 277 289l86-63 61 175Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 481'><path fill='#FECB00' d='M0 1h853v480H0V1Z'/><path fill='#34B233' d='M0 161h853v320H0V161Z'/><path fill='#EA2839' d='M0 321h853v160H0V321Z'/><path fill='#fff' d='m427 81 53 176H374l53-176Z'/><path fill='#fff' d='m323 401 61-175 86 63-147 112Z'/><path fill='#fff' d='m258 203 185 4-33 101-152-105Z'/><path fill='#fff' d='M595 203 443 308l-33-101 185-4Z'/><path fill='#fff' d='M531 401 384 289l86-63 61 175Z'/></svg>"
         }
       },
       {
