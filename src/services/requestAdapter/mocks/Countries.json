@@ -972,8 +972,8 @@
         "name": "Ireland",
         "iso": "IRL",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 480'><path fill='#fff' fill-rule='evenodd' d='M213 0h214v480H213V0Z' clip-rule='evenodd'/><path fill='#009A49' fill-rule='evenodd' d='M0 0h213v480H0V0Z' clip-rule='evenodd'/><path fill='#FF7900' fill-rule='evenodd' d='M427 0h213v480H427V0Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' fill-rule='evenodd' d='M284 0h285v480H284V0Z' clip-rule='evenodd'/><path fill='#009A49' fill-rule='evenodd' d='M0 0h284v480H0V0Z' clip-rule='evenodd'/><path fill='#FF7900' fill-rule='evenodd' d='M569 0h284v480H569V0Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
