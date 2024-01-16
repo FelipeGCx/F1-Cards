@@ -1170,8 +1170,8 @@
         "name": "Lithuania",
         "iso": "LTU",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 481'><path fill='#006A44' d='M640 160H0v160h640V160Z'/><path fill='#C1272D' d='M640 321H0v160h640V321Z'/><path fill='#FDB913' fill-rule='evenodd' d='M0 0h640v160H0V0Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 481'><path fill='#006A44' d='M853 160H0v160h853V160Z'/><path fill='#C1272D' d='M853 321H0v160h853V321Z'/><path fill='#FDB913' fill-rule='evenodd' d='M0 0h853v160H0V0Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
