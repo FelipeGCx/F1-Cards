@@ -1179,8 +1179,8 @@
         "name": "Luxembourg",
         "iso": "LUX",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 480'><path fill='#00A1DE' d='M1 320h640v160H1V320Z'/><path fill='#ED2939' d='M1 0h640v160H1V0Z'/><path fill='#fff' d='M1 160h640v160H1V160Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 855 480'><path fill='#00A1DE' d='M1 320h853v160H1V320Z'/><path fill='#ED2939' d='M1 0h853v160H1V0Z'/><path fill='#fff' d='M1 160h853v160H1V160Z'/></svg>"
         }
       },
       {
