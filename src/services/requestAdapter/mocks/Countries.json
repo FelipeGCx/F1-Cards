@@ -251,8 +251,8 @@
         "name": "Bonaire, Sint Eustatius and Saba",
         "iso": "BES",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 480'><path fill='#21468B' d='M.33 0h640v480H.33V0Z'/><path fill='#fff' d='M.33 0h640v320H.33V0Z'/><path fill='#AE1C28' d='M.33 0h640v160H.33V0Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#21468B' d='M.33 0h853.33v480H.33V0Z'/><path fill='#fff' d='M.33 0h853.33v320H.33V0Z'/><path fill='#AE1C28' d='M.33 0h853.33v160H.33V0Z'/></svg>"
         }
       },
       {
