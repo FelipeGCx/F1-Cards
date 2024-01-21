@@ -1,7 +1,22 @@
 import { Response } from "../../types";
 import { RequestProvider } from "./requestProvider";
-import { Error, Driver, Drivers, Team, Teams, Countries } from "./mocks";
-import { DRIVER, DRIVERS, TEAM, TEAMS, COUNTRIES} from "../../constants";
+import {
+  Error,
+  Driver,
+  Drivers,
+  Team,
+  Teams,
+  Countries,
+  Circuits,
+} from "./mocks";
+import {
+  DRIVER,
+  DRIVERS,
+  TEAM,
+  TEAMS,
+  COUNTRIES,
+  CIRCUITS,
+} from "../../constants";
 
 export class DevelopmentProvider implements RequestProvider {
   async getRequest(url: string, _headers?: string): Promise<Response> {
@@ -16,6 +31,8 @@ export class DevelopmentProvider implements RequestProvider {
         return Teams;
       case COUNTRIES:
         return Countries;
+      case CIRCUITS:
+        return Circuits;
       default:
         return Error;
     }

@@ -4,5 +4,6 @@ import Drivers from "./Drivers.json";
 import Team from "./Team.json";
 import Teams from "./Teams.json";
 import Countries from "./Countries.json";
+import Circuits from "./Circuits.json";
 
-export { Error, Driver,Drivers, Team, Teams, Countries};
+export { Error, Driver,Drivers, Team, Teams, Countries, Circuits};

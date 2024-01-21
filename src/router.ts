@@ -16,6 +16,11 @@ const routes = [
     name: "countries",
     component: () => import("./views/countries/index.vue"),
   },
+  {
+    path: "/circuits",
+    name: "circuits",
+    component: () => import("./views/circuits/index.vue"),
+  },
 ];
 
 const router = createRouter({
