@@ -269,8 +269,8 @@
         "name": "Botswana",
         "iso": "BWA",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#00CBFF' fill-rule='evenodd' d='M0 0h640v480H0V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 160h640v160H0V160Z' clip-rule='evenodd'/><path fill='#000' fill-rule='evenodd' d='M0 186h640v108H0V186Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#00CBFF' fill-rule='evenodd' d='M0 0h853v480H0V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 160h853v160H0V160Z' clip-rule='evenodd'/><path fill='#000' fill-rule='evenodd' d='M0 186h853v108H0V186Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
