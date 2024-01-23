@@ -314,8 +314,8 @@
         "name": "Bulgaria",
         "iso": "BGR",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#D62612' fill-rule='evenodd' d='M0 320h640v160H0V320Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 0h640v160H0V0Z' clip-rule='evenodd'/><path fill='#00966E' fill-rule='evenodd' d='M0 160h640v160H0V160Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#D62612' fill-rule='evenodd' d='M0 320h853v160H0V320Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 0h853v160H0V0Z' clip-rule='evenodd'/><path fill='#00966E' fill-rule='evenodd' d='M0 160h853v160H0V160Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
