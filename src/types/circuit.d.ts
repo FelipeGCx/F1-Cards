@@ -15,6 +15,7 @@ export type City = {
 };
 
 export type Circuit = {
+  id: number;
   name: string;
   distance: MeasurementSystem;
   length: MeasurementSystem;
