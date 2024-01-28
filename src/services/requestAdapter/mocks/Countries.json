@@ -1629,8 +1629,8 @@
         "name": "Qatar",
         "iso": "QAT",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#8D1B3D' d='M0 0h640v480H0V0Z'/><path fill='#fff' d='M0 0v480h158l98-27-98-26 98-27-98-27 98-26-98-27 98-27-98-26 98-27-98-27 98-26-98-27 98-27-98-26 98-27-98-27 98-26-98-27H0Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#8D1B3D' d='M0 0h853v480H0V0Z'/><path fill='#fff' d='M0 0v480h211l131-27-131-26 130-27-130-27 130-26-130-27 131-27-131-26 130-27-130-27 130-26-130-27 131-27-131-26 130-27-130-27 131-26L211 0H0Z'/></svg>"
         }
       },
       {
