@@ -359,8 +359,8 @@
         "name": "Cameroon",
         "iso": "CMR",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#007A5E' d='M0 0h213v480H0V0Z'/><path fill='#CE1126' d='M213 0h214v480H213V0Z'/><path fill='#FCD116' d='M427 0h213v480H427V0ZM299 247l-33-25h41l13-39 13 39h41l-33 25 12 39-33-24-33 24 12-39Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#007A5E' d='M0 0h284v480H0V0Z'/><path fill='#CE1126' d='M284 0h285v480H284V0Z'/><path fill='#FCD116' d='M569 0h284v480H569V0ZM406 247l-33-25h41l13-39 13 39h41l-33 25 12 39-33-24-34 24 13-39Z'/></svg>"
         }
       },
       {
