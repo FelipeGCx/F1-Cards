@@ -1116,8 +1116,8 @@
         "name": "Latvia",
         "iso": "LVA",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' fill-rule='evenodd' d='M0 0h640v480H0V0Z' clip-rule='evenodd'/><path fill='#981E32' fill-rule='evenodd' d='M0 0h640v192H0V0Zm0 288h640v192H0V288Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' fill-rule='evenodd' d='M0 0h853v480H0V0Z' clip-rule='evenodd'/><path fill='#981E32' fill-rule='evenodd' d='M0 0h853v192H0V0Zm0 288h853v192H0V288Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
