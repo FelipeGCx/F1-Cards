@@ -1242,8 +1242,8 @@
         "name": "Mali",
         "iso": "MLI",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='red' fill-rule='evenodd' d='M426 0h213v480H426V0Z' clip-rule='evenodd'/><path fill='#009A00' fill-rule='evenodd' d='M0 0h213v480H0V0Z' clip-rule='evenodd'/><path fill='#FF0' fill-rule='evenodd' d='M213 0h213v480H213V0Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='red' fill-rule='evenodd' d='M569 0h284v480H568l1-480Z' clip-rule='evenodd'/><path fill='#009A00' fill-rule='evenodd' d='M0 0h285v480H0V0Z' clip-rule='evenodd'/><path fill='#FF0' fill-rule='evenodd' d='M284 0h285v480H284V0Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
