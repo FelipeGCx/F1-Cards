@@ -1206,8 +1206,8 @@
         "name": "Madagascar",
         "iso": "MDG",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#FC3D32' fill-rule='evenodd' d='M213 0h427v240H213V0Z' clip-rule='evenodd'/><path fill='#007E3A' fill-rule='evenodd' d='M213 240h427v240H213V240Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 0h213v480H0V0Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#FC3D32' fill-rule='evenodd' d='M284 0h569v240H284V0Z' clip-rule='evenodd'/><path fill='#007E3A' fill-rule='evenodd' d='M284 240h569v240H284V240Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 0h284v480H0V0Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
