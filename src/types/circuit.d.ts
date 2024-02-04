@@ -19,7 +19,7 @@ export type Circuit = {
   name: string;
   distance: MeasurementSystem;
   length: MeasurementSystem;
-  tunrs: Turn;
+  turns: Turn;
   debut: number;
   laps: number;
   type: string; // maybe a enum is better option
