@@ -918,8 +918,8 @@
         "name": "Hungary",
         "iso": "HUN",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' fill-rule='evenodd' d='M640 320H0V160h640v160Z' clip-rule='evenodd'/><path fill='#388D00' fill-rule='evenodd' d='M640 480H0V320h640v160Z' clip-rule='evenodd'/><path fill='#D43516' fill-rule='evenodd' d='M640 160H0V0h640v160Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg width='854' height='480' viewBox='0 0 854 480' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M853.33 319.9H0V159.9H853.33V319.9Z' fill='white'/><path fill-rule='evenodd' clip-rule='evenodd' d='M853.33 479.9H0V319.9H853.33V479.9Z' fill='#388D00'/><path fill-rule='evenodd' clip-rule='evenodd' d='M853.33 160H0V0H853.33V160Z' fill='#D43516'/></svg>"
         }
       },
       {
