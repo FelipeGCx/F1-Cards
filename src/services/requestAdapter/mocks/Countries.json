@@ -1197,8 +1197,8 @@
         "name": "Republic of North Macedonia",
         "iso": "MKD",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#D20000' d='M0 0h640v480H0V0Z'/><path fill='#FFE600' fill-rule='evenodd' d='M96 0H0l251 189c4-6 9-10 14-15L96 0Zm139 227L0 192v96l235-35a86 86 0 0 1 0-26ZM0 480l251-189c4 6 9 10 14 15L96 480H0Zm310-155-30 155h80l-30-155a87 87 0 0 1-20 0Zm234 155L375 306c5-5 10-9 14-15l251 189h-96ZM405 253l235 35v-96l-235 35a86 86 0 0 1 0 26Zm-85-99-10 1L280 0h80l-30 155-10-1Zm55 20c5 5 10 9 14 15L640 0h-96L375 174Zm-124 66a69 69 0 1 1 138 0 69 69 0 0 1-138 0Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#D20000' d='M0 0h853v480H0V0Z'/><path fill='#FFE600' fill-rule='evenodd' d='M128 0H0l335 189 18-15L128 0Zm186 227L0 192v96l314-35a65 65 0 0 1 0-26ZM0 480l335-189 18 15-225 174H0Zm413-155-40 155h107l-40-155a154 154 0 0 1-27 0Zm312 155L500 306c7-5 13-9 18-15l335 189H725ZM540 253l313 35v-96l-313 35a65 65 0 0 1 0 26Zm-113-99-14 1L373 0h107l-40 155-13-1Zm73 20c7 5 13 9 18 15L853 0H725L500 174Zm-165 66c0-38 41-69 92-69 50 0 91 31 91 69s-41 69-91 69c-51 0-92-31-92-69Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
