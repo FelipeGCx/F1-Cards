@@ -395,8 +395,8 @@
         "name": "Chad",
         "iso": "TCD",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#000067' fill-rule='evenodd' d='M0 0h214v480H0V0Z' clip-rule='evenodd'/><path fill='red' fill-rule='evenodd' d='M426 0h214v480H426V0Z' clip-rule='evenodd'/><path fill='#FF0' fill-rule='evenodd' d='M214 0h212v480H214V0Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#000067' fill-rule='evenodd' d='M0 0h285v480H0V0Z' clip-rule='evenodd'/><path fill='red' fill-rule='evenodd' d='M568 0h285v480H568V0Z' clip-rule='evenodd'/><path fill='#FF0' fill-rule='evenodd' d='M285 0h283v480H285V0Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
@@ -630,7 +630,7 @@
         "iso": "EST",
         "flag": {
           "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#000' d='M640 160H0v160h640V160Z'/><path fill='#fff' d='M640 320H0v160h640V320Z'/><path fill='#1791FF' fill-rule='evenodd' d='M0 0h640v160H0V0Z' clip-rule='evenodd'/></svg>",
-          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#000' d='M853 160H0v160h853V160Z'/><path fill='#fff' d='M853 320H0v160h853V320Z'/><path fill='#1791FF' fill-rule='evenodd' d='M0 0h853v160H0V0Z' clip-rule='evenodd'/></svg>"  
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#000' d='M853 160H0v160h853V160Z'/><path fill='#fff' d='M853 320H0v160h853V320Z'/><path fill='#1791FF' fill-rule='evenodd' d='M0 0h853v160H0V0Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
