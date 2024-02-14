@@ -1800,8 +1800,8 @@
         "name": "Sierra Leone",
         "iso": "SLE",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#0000CD' fill-rule='evenodd' d='M0 320h640v160H0V320Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 161h640v159H0V161Z' clip-rule='evenodd'/><path fill='#00CD00' fill-rule='evenodd' d='M0 0h640v161H0V0Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#0000CD' fill-rule='evenodd' d='M0 320h853v160H0V320Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 161h853v159H0V161Z' clip-rule='evenodd'/><path fill='#00CD00' fill-rule='evenodd' d='M0 0h853v161H0V0Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
