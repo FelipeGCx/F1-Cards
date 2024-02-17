@@ -2178,8 +2178,8 @@
         "name": "Viet Nam",
         "iso": "VNM",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#DA251D' d='M0 0h640v480H0z'/><path fill='#FF0' d='M353 210h104l-84 60 32 100-85-62-85 62 33-99-85-62h105l33-99 32 100Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#DA251D' d='M0 0h853v480H0z'/><path fill='#FF0' d='M460 210h104l-84 60 32 100-85-62-85 62 33-99-85-62h105l33-99 32 100Z'/></svg>"
         }
       },
       {
