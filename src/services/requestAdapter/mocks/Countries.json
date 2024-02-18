@@ -765,8 +765,8 @@
         "name": "Ghana",
         "iso": "GHA",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#006B3F' d='M0 0h640v480H0V0Z'/><path fill='#FCD116' d='M0 0h640v320H0V0Z'/><path fill='#CE1126' d='M0 0h640v160H0V0Z'/><path fill='#000' fill-rule='evenodd' d='m340 221-20-61-20 61h-64l52 38-20 61 52-38 52 38-20-61 52-38h-64Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#006B3F' d='M0 0h853v480H0V0Z'/><path fill='#FCD116' d='M0 0h853v320H0V0Z'/><path fill='#CE1126' d='M0 0h853v160H0V0Z'/><path fill='#000' fill-rule='evenodd' d='m447 221-20-61-20 61h-64l52 38-20 61 52-38 52 38-20-61 52-38h-64Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
