@@ -4,7 +4,7 @@ const routes = [
   {
     path: "/",
     name: "home",
-    omponent: () => import("./views/home/index.vue"),
+    redirect: "/drivers",
   },
   {
     path: "/drivers",
