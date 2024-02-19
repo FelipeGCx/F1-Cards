@@ -38,5 +38,6 @@ const getData = async <T>(url: string): Promise<T | null> => {
   display: flex;
   gap: 1.2rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
-    <ul class="cars" >
-      <li v-for="t in teams" :key="t.id">
-        <CardTeam :team="t" />
-      </li>
-    </ul>
+  <ul class="cars">
+    <li v-for="t in teams" :key="t.id">
+      <CardTeam :team="t" />
+    </li>
+  </ul>
 </template>
 
 <script setup lang="ts">
@@ -33,9 +33,10 @@ const getData = async <T>(url: string): Promise<T | null> => {
 </script>
 
 <style scoped>
-.cars{
+.cars {
   display: flex;
   gap: 1.2rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 </style>
