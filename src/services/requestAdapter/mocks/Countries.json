@@ -855,8 +855,8 @@
         "name": "Guinea-Bissau",
         "iso": "GNB",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#CE1126' d='M0 0h220v480H0V0Z'/><path fill='#FCD116' d='M220 0h420v240H220V0Z'/><path fill='#009E49' d='M220 240h420v240H220V240Z'/><path fill='#000' d='m128 215-18-55-18 55H34l47 34-18 56 47-34 47 34-18-56 47-34h-58Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#CE1126' d='M0 0h293v480H0V0Z'/><path fill='#FCD116' d='M293 0h560v240H293V0Z'/><path fill='#009E49' d='M293 240h560v240H293V240Z'/><path fill='#000' d='m165 215-18-55-18 55H71l47 34-18 56 47-34 47 34-18-56 47-34h-58Z'/></svg>"
         }
       },
       {
