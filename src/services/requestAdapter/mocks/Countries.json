@@ -837,8 +837,8 @@
         "name": "Guernsey",
         "iso": "GGY",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' d='M0 0h640v480H0V0Z'/><path fill='#E8112D' d='M256 0h128v176h256v128H384v176H256V304H0V176h256V0Z'/><path fill='#F9DD16' d='m110 287 23-24h164v164l-24 23h94l-24-23V263h164l23 24v-94l-23 24H343V53l24-23h-94l24 23v164H133l-23-24v94Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' d='M0 0h853v480H0V0Z'/><path fill='#E8112D' d='M341 0h171v176h341v128H512v176H341V304H0V176h341V0Z'/><path fill='#F9DD16' d='m147 287 31-24h218v164l-32 23h125l-31-23V263h218l31 24v-94l-31 24H458V53l31-23H364l32 23v164H178l-31-24v94Z'/></svg>"
         }
       },
       {
