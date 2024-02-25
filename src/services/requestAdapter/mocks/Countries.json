@@ -539,8 +539,8 @@
         "name": "Czechia",
         "iso": "CZE",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' d='M0 0h640v240H0V0Z'/><path fill='#D7141A' d='M0 240h640v240H0V240Z'/><path fill='#11457E' d='M360 240 0 0v480l360-240Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' d='M0 0h853v240H0V0Z'/><path fill='#D7141A' d='M0 240h853v240H0V240Z'/><path fill='#11457E' d='M480 240 0 0v480l480-240Z'/></svg>"
         }
       },
       {
