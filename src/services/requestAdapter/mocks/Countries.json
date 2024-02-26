@@ -2025,8 +2025,8 @@
         "name": "Tonga",
         "iso": "TON",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#C10000' fill-rule='evenodd' d='M0 0h640v480H0V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 0h250v200H0V0Z' clip-rule='evenodd'/><path fill='#C10000' fill-rule='evenodd' d='M103 31h40v140h-40V31Z' clip-rule='evenodd'/><path fill='#C10000' fill-rule='evenodd' d='M193 81v40H53V81h140Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#C10000' fill-rule='evenodd' d='M0 0h853v480H0V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 0h333v200H0V0Z' clip-rule='evenodd'/><path fill='#C10000' fill-rule='evenodd' d='M137 31h53v140h-53V31Z' clip-rule='evenodd'/><path fill='#C10000' fill-rule='evenodd' d='M257 81v40H71V81h186Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
