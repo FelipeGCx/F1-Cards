@@ -2015,10 +2015,9 @@
         "id": 223,
         "name": "Tokelau",
         "iso": "TKL",
-        // TODO: REplace this is wrong
         "flag": {
-          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#C10000' fill-rule='evenodd' d='M0 0h640v480H0V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 0h250v200H0V0Z' clip-rule='evenodd'/><path fill='#C10000' fill-rule='evenodd' d='M103 31h40v140h-40V31Z' clip-rule='evenodd'/><path fill='#C10000' fill-rule='evenodd' d='M193 81v40H53V81h140Z' clip-rule='evenodd'/></svg>",
-          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#C10000' fill-rule='evenodd' d='M0 0h853v480H0V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='M0 0h333v200H0V0Z' clip-rule='evenodd'/><path fill='#C10000' fill-rule='evenodd' d='M137 31h53v140h-53V31Z' clip-rule='evenodd'/><path fill='#C10000' fill-rule='evenodd' d='M257 81v40H71V81h186Z' clip-rule='evenodd'/></svg>"
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#00247D' d='M0 0h640v480H0V0Z'/><path fill='#FED100' d='M108 355c-7 0 63-37 121-85 76-62 240-161 289-177 5-2-11 8-13 12-51 61-10 176 54 233 20 15 19 16 55 17v4l-506-4Zm-4 6s-5 4-5 6c0 3 6 7 6 7l498 6 9-6-13-8-495-5Z'/><path fill='#fff' d='m107 109-4 12 10-7 11 7-4-12 10-7h-13l-4-13-4 13H96l11 7Zm78 58 9-7h-11l-3-10-4 10h-10l8 7-3 10 9-7 8 7-3-10ZM40 180l-4-13-4 13H19l10 7-4 12 11-7 10 7-4-12 11-7H40Zm78 122-5-14-4 14H94l12 9-5 14 12-9 12 9-4-14 12-9h-15Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#00247D' d='M0 0h853v480H0V0Z'/><path fill='#FED100' d='M144 355c-9 0 84-37 161-85 102-62 321-161 385-177 7-2-14 8-16 12-69 61-14 176 72 233 26 15 24 16 72 17v4l-674-4Zm-5 6s-7 4-7 6c0 3 7 7 7 7l665 6 12-6-17-8-660-5Z'/><path fill='#fff' d='m142 109-5 12 14-7 14 7-6-12 14-7h-17l-5-13-5 13h-17l13 7Zm105 58 11-7h-14l-5-10-4 10h-14l11 7-4 10 11-7 12 7-4-10ZM53 180l-5-13-6 13H25l14 7-5 12 14-7 13 7-5-12 14-7H53Zm104 122-6-14-6 14h-20l16 9-6 14 16-9 16 9-6-14 16-9h-20Z'/></svg>"
         }
       },
       {
