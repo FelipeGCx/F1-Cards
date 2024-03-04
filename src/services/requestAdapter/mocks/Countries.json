@@ -1980,8 +1980,8 @@
         "name": "Tanzania",
         "iso": "TZA",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#F4F5F8' fill-rule='evenodd' d='M0 0h640v480H0V0Z' clip-rule='evenodd'/><path fill='#2D2A4A' fill-rule='evenodd' d='M0 162.5h640v160H0v-160Z' clip-rule='evenodd'/><path fill='#A51931' fill-rule='evenodd' d='M0 0h640v82.5H0V0Zm0 400h640v80H0v-80Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#F4F5F8' fill-rule='evenodd' d='M0 0h853.333v480H0V0Z' clip-rule='evenodd'/><path fill='#2D2A4A' fill-rule='evenodd' d='M0 162.5h853.333v160H0v-160Z' clip-rule='evenodd'/><path fill='#A51931' fill-rule='evenodd' d='M0 0h853.333v82.5H0V0Zm0 400h853.333v80H0v-80Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
