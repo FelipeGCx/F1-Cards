@@ -1701,8 +1701,8 @@
         "name": "Saint Lucia",
         "iso": "LCA",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#65CFFF' fill-rule='evenodd' d='M0 0h640v480H0V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='m319 42 163 395-323 1L319 42Z' clip-rule='evenodd'/><path fill='#000' fill-rule='evenodd' d='m319 97 141 340H181L319 97Z' clip-rule='evenodd'/><path fill='#FFCE00' fill-rule='evenodd' d='m319 240 163 198H159l160-198Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#65CFFF' fill-rule='evenodd' d='M0 0h853v480H0V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='m425 42 217 395-430 1L425 42Z' clip-rule='evenodd'/><path fill='#000' fill-rule='evenodd' d='m425 97 188 340H241L425 97Z' clip-rule='evenodd'/><path fill='#FFCE00' fill-rule='evenodd' d='m425 240 217 198H212l213-198Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
