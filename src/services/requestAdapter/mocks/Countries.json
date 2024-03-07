@@ -1728,8 +1728,8 @@
         "name": "Saint Vincent and the Grenadines",
         "iso": "VCT",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#F4F100' fill-rule='evenodd' d='M0 0h640v480H0V0Z' clip-rule='evenodd'/><path fill='#199A00' fill-rule='evenodd' d='M490 0h150v480H490V0Z' clip-rule='evenodd'/><path fill='#0058AA' fill-rule='evenodd' d='M0 0h150v480H0V0Z' clip-rule='evenodd'/><path fill='#199A00' fill-rule='evenodd' d='m259 130-46 71 45 75 43-74-42-72Zm122 0-47 71 45 75 44-74-42-72Zm-62 97-46 72 45 74 44-74-43-72Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#F4F100' fill-rule='evenodd' d='M0 0h853v480H0V0Z' clip-rule='evenodd'/><path fill='#199A00' fill-rule='evenodd' d='M653 0h200v480H653V0Z' clip-rule='evenodd'/><path fill='#0058AA' fill-rule='evenodd' d='M0 0h200v480H0V0Z' clip-rule='evenodd'/><path fill='#199A00' fill-rule='evenodd' d='m368 130-46 71 45 75 44-74-43-72Zm122 0-47 71 45 75 44-74-42-72Zm-62 97-46 72 45 74 44-74-43-72Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
