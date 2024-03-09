@@ -1917,8 +1917,8 @@
         "name": "Suriname",
         "iso": "SUR",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#377E3F' d='M0 0h640v480H0V0Z'/><path fill='#fff' d='M0 96h640v288H0V96Z'/><path fill='#B40A2D' d='M0 144h640v192H0V144Z'/><path fill='#ECC81D' d='m320 153 56 174-147-107h182L264 327l56-174Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#377E3F' d='M0 0h853v480H0V0Z'/><path fill='#fff' d='M0 96h853v288H0V96Z'/><path fill='#B40A2D' d='M0 144h853v192H0V144Z'/><path fill='#ECC81D' fill-rule='evenodd' d='m448 219-22-66-21 66h-70l56 41-21 67 56-41 57 41-22-67 57-41h-70Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
