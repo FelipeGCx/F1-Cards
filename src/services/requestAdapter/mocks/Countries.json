@@ -1773,8 +1773,8 @@
         "name": "Senegal",
         "iso": "SEN",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#0B7226' fill-rule='evenodd' d='M0 0h213v480H0V0Z' clip-rule='evenodd'/><path fill='#FF0' fill-rule='evenodd' d='M213 0h214v480H213V0Z' clip-rule='evenodd'/><path fill='#BC0000' fill-rule='evenodd' d='M427 0h213v480H427V0Z' clip-rule='evenodd'/><path fill='#0B7226' d='M342 219h72l-57 43 21 70-57-44-56 42 20-68-56-43h70l22-71 21 71Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#0B7226' fill-rule='evenodd' d='M0 0h284v480H0V0Z' clip-rule='evenodd'/><path fill='#FF0' fill-rule='evenodd' d='M284 0h285v480H284V0Z' clip-rule='evenodd'/><path fill='#BC0000' fill-rule='evenodd' d='M569 0h284v480H569V0Z' clip-rule='evenodd'/><path fill='#0B7226' d='M447 219h72l-57 44 21 69-56-43-57 41 21-67-57-44h70l23-71 20 71Z'/></svg>"
         }
       },
       {
