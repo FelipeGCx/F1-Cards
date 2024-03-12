@@ -1881,8 +1881,8 @@
         "name": "South Sudan",
         "iso": "SSD",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#078930' d='M0 336h640v144H0V336Z'/><path fill='#fff' d='M0 144h640v192H0V144Z'/><path fill='#000' d='M0 0h640v144H0V0Z'/><path fill='#DA121A' d='M0 168h640v144H0V168Z'/><path fill='#0F47AF' d='m0 0 416 240L0 480V0Z'/><path fill='#FCDD09' d='M201 195 62 240l139 45-86-118v146l86-118Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#078930' d='M0 336h853v144H0V336Z'/><path fill='#fff' d='M0 144h853v192H0V144Z'/><path fill='#000' d='M0 0h853v144H0V0Z'/><path fill='#DA121A' d='M0 168h853v144H0V168Z'/><path fill='#0F47AF' d='m0 0 416 240L0 480V0Z'/><path fill='#FCDD09' d='M201 195 62 240l139 45-86-118v146l86-118Z'/></svg>"
         }
       },
       {
