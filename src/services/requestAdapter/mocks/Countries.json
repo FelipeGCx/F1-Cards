@@ -2043,8 +2043,8 @@
         "name": "Tunisia",
         "iso": "TUN",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#E70013' d='M0 0h640v480H0V0Z'/><path fill='#fff' d='M320 119a120 120 0 1 0-1 241 120 120 0 0 0 1-241Zm72 174a90 90 0 1 1 0-107 72 72 0 1 0 0 107Zm-5-22-37-12-23 32v-39l-38-12 38-13v-39l23 32 37-12-23 32 23 31Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#E70013' d='M0 0h853v480H0V0Z'/><path fill='#fff' d='M428 120a120 120 0 1 0-1 240 120 120 0 0 0 1-240Zm72 174a90 90 0 1 1 0-107 72 72 0 1 0 0 107Zm-5-22-37-12-24 32v-39l-37-13 37-12v-39l24 32 37-12-23 31 23 32Z'/></svg>"
         }
       },
       {
