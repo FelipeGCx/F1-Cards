@@ -323,8 +323,8 @@
         "name": "Burkina Faso",
         "iso": "BFA",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#DE0000' fill-rule='evenodd' d='M640 480H0V0h640v480Z' clip-rule='evenodd'/><path fill='#35A100' fill-rule='evenodd' d='M640 480H0V240h640v240Z' clip-rule='evenodd'/><path fill='#FFF300' fill-rule='evenodd' d='m255 276-106-72h131l40-117 40 117h131l-106 72 41 118-106-73-106 72' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#DE0000' fill-rule='evenodd' d='M853 480H1V0h852v480Z' clip-rule='evenodd'/><path fill='#35A100' fill-rule='evenodd' d='M853 480H0V240h853v240Z' clip-rule='evenodd'/><path fill='#FFF300' fill-rule='evenodd' d='m361 276-106-72h131l41-117 40 117h131l-106 72 41 118-106-73-106 72' clip-rule='evenodd'/></svg>"
         }
       },
       {
