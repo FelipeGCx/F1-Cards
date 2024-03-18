@@ -864,8 +864,8 @@
         "name": "Guyana",
         "iso": "GUY",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#399408' fill-rule='evenodd' d='M2 0h638v480H2V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='m0 0 620 242L0 480V0Z' clip-rule='evenodd'/><path fill='#FFDE08' fill-rule='evenodd' d='M0 20c3 0 559 218 556 220L2 463 0 20Z' clip-rule='evenodd'/><path fill='#000' fill-rule='evenodd' d='M0 1c2 0 291 241 291 241L0 477V1Z' clip-rule='evenodd'/><path fill='#DE2110' fill-rule='evenodd' d='M0 34c2-15 261 208 261 208L0 452V34Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#399408' fill-rule='evenodd' d='M3 0h850v480H3V0Z' clip-rule='evenodd'/><path fill='#fff' fill-rule='evenodd' d='m0 0 826 242L0 480V0Z' clip-rule='evenodd'/><path fill='#FFDE08' fill-rule='evenodd' d='M0 20c5 0 745 218 741 220L2 463 0 20Z' clip-rule='evenodd'/><path fill='#000' fill-rule='evenodd' d='M0 1c3 0 388 241 388 241L0 477V1Z' clip-rule='evenodd'/><path fill='#DE2110' fill-rule='evenodd' d='M0 34c2-15 348 208 348 208L0 452V34Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
