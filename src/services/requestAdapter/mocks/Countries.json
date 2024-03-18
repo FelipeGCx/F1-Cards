@@ -792,8 +792,8 @@
         "name": "Greenland",
         "iso": "GRL",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' d='M0 0h640v480H0V0Z'/><path fill='#D00C33' d='M0 240h640v240H0V240Zm80 0a160 160 0 1 0 320 0 160 160 0 0 0-320 0Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' d='M0 0h853v480H0V0Z'/><path fill='#D00C33' d='M0 240h853v240H0V240Zm80 0a160 160 0 1 0 320 0 160 160 0 0 0-320 0Z'/></svg>"
         }
       },
       {
