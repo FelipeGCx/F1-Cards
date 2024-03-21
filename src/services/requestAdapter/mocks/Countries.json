@@ -1278,8 +1278,8 @@
         "name": "Mauritania",
         "iso": "MRT",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#CD2A3E' d='M0 0h640v480H0V0Z'/><path fill='#006233' d='M0 72h640v336H0V72Z'/><path fill='#FFC400' d='M470 155a150 150 0 1 1-300 0 155 155 0 1 0 300 0Z'/><path fill='#FFC400' d='m320 94-13 41h-44l35 26-13 41 35-25 35 25-13-41 35-26h-43l-14-41Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#CD2A3E' d='M0 0h853v480H0V0Z'/><path fill='#006233' d='M0 72h853v336H0V72Z'/><path fill='#FFC400' d='M577 155a150 150 0 0 1-300 0 155 155 0 1 0 300 0Z'/><path fill='#FFC400' d='m427 94-14 41h-43l35 26-14 41 36-25 35 25-13-41 35-26h-44l-13-41Z'/></svg>"
         }
       },
       {
