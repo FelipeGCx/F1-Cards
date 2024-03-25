@@ -2034,8 +2034,8 @@
         "name": "Trinidad and Tobago",
         "iso": "TTO",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' d='M0 0h640v480H0V0Z'/><path fill='#E00000' fill-rule='evenodd' d='M464 480 0 1v479h464ZM176 0l464 479V0H176Z' clip-rule='evenodd'/><path fill='#000' fill-rule='evenodd' d='M28 0h118l468 480H492L28 0Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' d='M0 0h853v480H0V0Z'/><path fill='#E00000' fill-rule='evenodd' d='M618 480 0 1v479h618ZM235 0l618 479V0H235Z' clip-rule='evenodd'/><path fill='#000' fill-rule='evenodd' d='M37 0h158l624 480H656L37 0Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
