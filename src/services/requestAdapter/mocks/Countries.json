@@ -1755,8 +1755,8 @@
         "name": "Sao Tome and Principe",
         "iso": "STP",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#12AD2B' d='M0 0h640v480H0V0Z'/><path fill='#FFCE00' d='M0 137h640v206H0V137Z'/><path fill='#D21034' d='M0 0v480l240-240'/><path fill='#000' d='m569 295-16-47 41-29h-50l-16-48-15 48h-50l40 29-15 47 40-29 41 29ZM311 295l41-29 40 29-15-47 40-29h-50l-15-48-16 48h-50l41 29-16 47Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#12AD2B' d='M0 0h853v480H0V0Z'/><path fill='#FFCE00' d='M0 137h853v206H0V137Z'/><path fill='#D21034' d='M0 0v480l320-240'/><path fill='#000' d='m766 302-15-47 40-30h-50l-15-47-15 47h-50l40 30-15 47 40-29 40 29ZM509 302l40-29 41 29-16-47 40-30h-49l-16-47-15 47h-50l40 30-15 47Z'/></svg>"
         }
       },
       {
