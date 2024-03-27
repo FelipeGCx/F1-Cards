@@ -1791,8 +1791,8 @@
         "name": "Seychelles",
         "iso": "SYC",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' d='M0 0h640v480H0V0Z'/><path fill='#D92223' d='M0 480V0h640v160L0 480Z'/><path fill='#FCD955' d='M0 480V0h427L0 480Z'/><path fill='#003D88' d='M0 480V0h213L0 480Z'/><path fill='#007A39' d='m0 480 640-160v160H0Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' d='M0 0h853v480H0V0Z'/><path fill='#D92223' d='M0 480V0h853v160L0 480Z'/><path fill='#FCD955' d='M0 480V0h569L0 480Z'/><path fill='#003D88' d='M0 480V0h284L0 480Z'/><path fill='#007A39' d='m0 480 853-160v160H0Z'/></svg>"
         }
       },
       {
