@@ -1935,8 +1935,8 @@
         "name": "Sweden",
         "iso": "SWE",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#005293' d='M0 0h640v480H0V0Z'/><path fill='#FECB00' d='M176 0v192H0v96h176v192h96V288h368v-96H272V0h-96Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#005293' d='M0 0h853v480H0V0Z'/><path fill='#FECB00' d='M235 0v192H0v96h235v192h128V288h490v-96H363V0H235Z'/></svg>"
         }
       },
       {
