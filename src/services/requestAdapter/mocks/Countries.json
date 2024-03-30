@@ -2223,8 +2223,8 @@
         "name": "Yemen",
         "iso": "YEM",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' fill-rule='evenodd' d='M0 0h640v473H0V0Z' clip-rule='evenodd'/><path fill='#F10600' fill-rule='evenodd' d='M0 0h640v157H0V0Z' clip-rule='evenodd'/><path fill='#000' fill-rule='evenodd' d='M0 323h640v157H0V323Z' clip-rule='evenodd'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' fill-rule='evenodd' d='M0 0h853v473H0V0Z' clip-rule='evenodd'/><path fill='#F10600' fill-rule='evenodd' d='M0 0h853v157H0V0Z' clip-rule='evenodd'/><path fill='#000' fill-rule='evenodd' d='M0 323h853v157H0V323Z' clip-rule='evenodd'/></svg>"
         }
       },
       {
