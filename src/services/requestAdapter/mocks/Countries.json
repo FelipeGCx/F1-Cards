@@ -2106,8 +2106,8 @@
         "name": "United Arab Emirates",
         "iso": "ARE",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 641 480'><path fill='#00732F' d='M1 0h640v160H1V0Z'/><path fill='#fff' d='M1 160h640v160H1V160Z'/><path fill='#000' d='M1 320h640v160H1V320Z'/><path fill='red' d='M1 0h220v480H1V0Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 855 480'><path fill='#00732F' d='M1 0h853v160H1V0Z'/><path fill='#fff' d='M1 160h853v160H1V160Z'/><path fill='#000' d='M1 320h853v160H1V320Z'/><path fill='red' d='M1 0h293v480H1V0Z'/></svg>"
         }
       },
       {
