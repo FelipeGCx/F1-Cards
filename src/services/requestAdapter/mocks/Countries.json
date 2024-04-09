@@ -2214,8 +2214,8 @@
         "name": "Western Sahara",
         "iso": "ESH",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#fff' d='M0 0h640v480H0z'/><path fill='#CE1126' d='M338 228h27l-22 16 9 26-22-16-23 16 9-26-22-16h27l9-26 8 26Z'/><path fill='#CE1126' fill-rule='evenodd' d='M329 193a48 48 0 0 0 1 94h-8a48 48 0 1 1 7-94Z' clip-rule='evenodd'/><path fill='#000' d='M0 0h640v160H0z'/><path fill='#007A3D' d='M0 320h640v160H0z'/><path fill='#CE1126' d='M192 240 0 0v480l192-240Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#fff' d='M0 0h853v480H0z'/><path fill='#CE1126' d='M445 229h27l-22 16 8 26-21-16-23 16 9-26-22-16h27l9-25 8 25Z'/><path fill='#CE1126' fill-rule='evenodd' d='M436 194a47 47 0 0 0 1 93l-8 1a47 47 0 1 1 7-94Z' clip-rule='evenodd'/><path fill='#000' d='M0 0h853v160H0z'/><path fill='#007A3D' d='M0 320h853v160H0z'/><path fill='#CE1126' d='M256 240 0 0v480l256-240Z'/></svg>"
         }
       },
       {
