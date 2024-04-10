@@ -945,8 +945,8 @@
         "name": "Indonesia",
         "iso": "IDN",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#E70011' d='M0 0h640v240H0V0Z'/><path fill='#fff' d='M0 240h640v240H0V240Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#E70011' d='M0 0h853v240H0V0Z'/><path fill='#fff' d='M0 240h853v240H0V240Z'/></svg>"
         }
       },
       {
