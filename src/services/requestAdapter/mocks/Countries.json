@@ -2115,8 +2115,8 @@
         "name": "United Kingdom",
         "iso": "GBR",
         "flag": {
-          "fullscreen": "",
-          "widescreen": ""
+          "fullscreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 640 480'><path fill='#012169' d='M0 0h640v480H0V0Z'/><path fill='#fff' d='m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75Z'/><path fill='#C8102E' d='m424 281 216 159v40L369 281h55Zm-184 20 6 35L54 480H0l240-179ZM640 0v3L391 191l2-44L590 0h50ZM0 0l239 176h-60L0 42V0Z'/><path fill='#fff' d='M241 0v480h160V0H241ZM0 160v160h640V160H0Z'/><path fill='#C8102E' d='M0 193v96h640v-96H0ZM273 0v480h96V0h-96Z'/></svg>",
+          "widescreen": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 854 480'><path fill='#012169' d='M0 0h853v480H0V0Z'/><path fill='#fff' d='m100 0 325 181L749 0h104v62L533 241l320 178v61H747L427 301 108 480H0v-60l319-178L0 64V0h100Z'/><path fill='#C8102E' d='m565 281 288 159v40L492 281h73Zm-245 20 8 35L72 480H0l320-179ZM853 0v3L521 191l3-44L787 0h66ZM0 0l319 176h-80L0 42V0Z'/><path fill='#fff' d='M321 0v480h214V0H321ZM0 160v160h853V160H0Z'/><path fill='#C8102E' d='M0 193v96h853v-96H0ZM364 0v480h128V0H364Z'/></svg>"
         }
       },
       {
