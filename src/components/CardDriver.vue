@@ -9,13 +9,24 @@ const props = defineProps<Props>();
 </script>
 
 <template>
-  <div class="card" v-if="props.driver"
-    :style="`--color-team-primary: ${props.driver.team.color.primary}; --color-team-secondary: ${props.driver.team.color.secondary};`">
+  <div
+    class="card"
+    v-if="props.driver"
+    :style="`--color-team-primary: ${props.driver.team.color.primary}; --color-team-secondary: ${props.driver.team.color.secondary};`"
+  >
     <Logo class="icon" />
     <Logo class="iconBack" />
-    <img :src="props.driver.picture" class="picture" />
+    <picture class="picture">
+      <source :srcset="props.driver.picture.avif" />
+      <source :srcset="props.driver.picture.webp" />
+      <img :src="props.driver.picture.png" />
+    </picture>
     <div class="names">
-      <picture v-if="props.driver.team.scudery.icon.normal" v-html="props.driver.team.scudery.icon.normal" class="team-icon">
+      <picture
+        v-if="props.driver.team.scudery.icon.normal"
+        v-html="props.driver.team.scudery.icon.normal"
+        class="team-icon"
+      >
       </picture>
       <picture v-else v-html="props.driver.team.scudery.icon" class="team-icon">
       </picture>
@@ -25,7 +36,11 @@ const props = defineProps<Props>();
     </div>
     <div class="details">
       <img :src="props.driver.helmet" alt="" class="helmet" />
-      <picture v-if="props.driver.number.icon.oneColor" v-html="props.driver.number.icon.oneColor" class="number">
+      <picture
+        v-if="props.driver.number.icon.oneColor"
+        v-html="props.driver.number.icon.oneColor"
+        class="number"
+      >
       </picture>
       <img v-else :src="props.driver.number.icon.image" alt="" class="number" />
     </div>
@@ -55,10 +70,13 @@ const props = defineProps<Props>();
         <p class="data">{{ props.driver.points }}</p>
       </div>
       <div v-if="props.driver.signature" class="signature">
-        <img :src="props.driver.signature">
+        <picture>
+          <source :srcset="props.driver.signature.avif" />
+          <source :srcset="props.driver.signature.webp" />
+          <img :src="props.driver.signature.png" />
+        </picture>
       </div>
       <Logo class="iconInfoBack" />
-
     </div>
   </div>
 </template>
@@ -102,6 +120,9 @@ const props = defineProps<Props>();
     z-index: 3;
     right: -8em;
     top: 0;
+    source, img{
+      width: 100%;
+    }
   }
 
   .details {
@@ -123,12 +144,12 @@ const props = defineProps<Props>();
       height: auto;
       right: -3em;
       bottom: -1em;
-      color: white
+      color: white;
     }
   }
 
   .names {
-    background-color: #13181F;
+    background-color: #13181f;
     width: 16em;
     height: fit-content;
     display: grid;
@@ -156,7 +177,7 @@ const props = defineProps<Props>();
       grid-area: 1/2/3/2;
       background-color: gray;
       height: 70%;
-      width: .1em;
+      width: 0.1em;
       margin: auto;
       margin-right: 0.2em;
     }
@@ -177,7 +198,6 @@ const props = defineProps<Props>();
       text-transform: uppercase;
       color: var(--color-team-secondary);
       line-height: 1.3em;
-
     }
 
     &::after {
@@ -193,10 +213,10 @@ const props = defineProps<Props>();
 
   .information {
     position: absolute;
-    background-color: #12151C;
+    background-color: #12151c;
     z-index: 4;
     width: inherit;
-    padding: .35em .35em 1.2em 1.2em;
+    padding: 0.35em 0.35em 1.2em 1.2em;
     bottom: 0;
     max-height: 10.4em;
     min-height: 10.4em;
@@ -206,7 +226,7 @@ const props = defineProps<Props>();
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    gap: .2em;
+    gap: 0.2em;
 
     .countryContainer {
       display: flex;
@@ -236,7 +256,9 @@ const props = defineProps<Props>();
       justify-content: center;
       clip-path: polygon(32% 0, 100% 0, 100% 100%, 0% 100%);
 
-      img {
+      picture,
+      img,
+      source {
         height: 100%;
         filter: grayscale(1);
       }
@@ -247,7 +269,7 @@ const props = defineProps<Props>();
       bottom: 0;
       height: 100%;
       right: -4.2em;
-      color: #1E2127;
+      color: #1e2127;
       transform: rotateX(180deg);
       z-index: 0;
     }
@@ -265,7 +287,6 @@ const props = defineProps<Props>();
       p {
         width: 35%;
         font-size: 1.15em;
-
       }
     }
   }
