@@ -15,10 +15,10 @@ export type Driver = {
   debut: Date;
   retire: Date | null;
   country: Country;
-  picture: string;
+  picture: Media;
   helmet: string;
   number: DriverNumber;
-  signature: string;
+  signature: Media;
   season: number;
   team: Team;
 };
@@ -33,4 +33,10 @@ export type DriverIcon = {
   border: string;
   oneColor: string;
   image: string;
-}
+};
+
+export type Media = {
+  avif: string;
+  webp: string;
+  png: string;
+};
