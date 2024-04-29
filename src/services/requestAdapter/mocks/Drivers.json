@@ -84,7 +84,11 @@
         "lastname": "perez",
         "nickname": "checo",
         "birth": "26/01/1990",
-        "picture": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fimage%2026.png?alt=media&token=26e2e55b-7025-445a-9f21-f17d443f84a5",
+        "picture": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fsergio_perez.avif?alt=media&token=a5b031a9-6172-43d6-a718-0d1b48b370a3",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fsergio_perez.webp?alt=media&token=da86a1dc-b940-4fcd-8bb2-3ca405a9d4f5",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fsergio_perez.png?alt=media&token=a3eaf45d-4a4e-4504-bcff-84c5976aaa75"
+        },
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/perez.png",
         "number": {
           "digit": 11,
@@ -95,7 +99,11 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/SERPER01.png.transform/2col/image.png"
           }
         },
-        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FPerez.png?alt=media&token=f7867c98-085f-4b78-bf82-491aacbfa49c",
+        "signature": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.avif?alt=media&token=3a4558de-0286-4dc6-8b44-445aae786055",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.webp?alt=media&token=e3c73d45-9ad8-42be-bc51-cba3223925b4",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.png?alt=media&token=3cf07927-e4f1-4e24-baff-1dff682322d6"
+        },
         "season": 2023,
         "team": {
           "id": 1,
