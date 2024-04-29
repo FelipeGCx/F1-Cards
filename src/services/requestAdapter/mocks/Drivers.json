@@ -95,7 +95,11 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/SERPER01.png.transform/2col/image.png"
           }
         },
-        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FPerez.png?alt=media&token=f7867c98-085f-4b78-bf82-491aacbfa49c",
+        "signature": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.avif?alt=media&token=3a4558de-0286-4dc6-8b44-445aae786055",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.webp?alt=media&token=e3c73d45-9ad8-42be-bc51-cba3223925b4",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.png?alt=media&token=3cf07927-e4f1-4e24-baff-1dff682322d6"
+        },
         "season": 2023,
         "team": {
           "id": 1,
