@@ -159,7 +159,11 @@
         "lastname": "leclerc",
         "nickname": null,
         "birth": "16/10/1997",
-        "picture": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fimage%2027.png?alt=media&token=39737f51-ae45-42ef-b8c9-dad4970b0ab4",
+        "picture": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fcharles_leclerc.avif?alt=media&token=6acc1c92-1cd1-4d49-b827-9c67c645893f",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fcharles_leclerc.webp?alt=media&token=062c4d20-5ee0-494b-bb05-082467eb44bf",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fcharles_leclerc.png?alt=media&token=df5c01ce-84e5-4cfd-b83d-64d2bd3767fe"
+        },
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/leclerc.png",
         "number": {
           "digit": 16,
