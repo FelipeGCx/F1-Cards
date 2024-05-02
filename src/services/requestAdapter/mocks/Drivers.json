@@ -174,7 +174,11 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CHALEC01.png.transform/2col/image.png"
           }
         },
-        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FLeclerc.png?alt=media&token=d020ac11-c07f-4b8f-805e-c6faa4512215",
+        "signature": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcharles_leclerc.avif?alt=media&token=0579ef77-b421-45a1-badb-6a2402a60a0c",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcharles_leclerc.webp?alt=media&token=946440f5-21ce-4463-bc6e-ff437e8068fd",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcharles_leclerc.png?alt=media&token=81ef1785-f1d0-445c-b950-7f51a768c573"
+        },
         "season": 2023,
         "team": {
           "id": 2,
