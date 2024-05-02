@@ -17,8 +17,8 @@ const props = defineProps<Props>();
     <Logo class="icon" />
     <Logo class="iconBack" />
     <picture class="picture">
-      <source :srcset="props.driver.picture.avif" />
-      <source :srcset="props.driver.picture.webp" />
+      <source :srcset="props.driver.picture.avif" type="image/avif" />
+      <source :srcset="props.driver.picture.webp" type="image/webp" />
       <img :src="props.driver.picture.png" />
     </picture>
     <div class="names">
@@ -71,8 +71,8 @@ const props = defineProps<Props>();
       </div>
       <div v-if="props.driver.signature" class="signature">
         <picture>
-          <source :srcset="props.driver.signature.avif" />
-          <source :srcset="props.driver.signature.webp" />
+          <source :srcset="props.driver.signature.avif" type="image/avif" />
+          <source :srcset="props.driver.signature.webp" type="image/webp" />
           <img :src="props.driver.signature.png" />
         </picture>
       </div>
@@ -120,7 +120,8 @@ const props = defineProps<Props>();
     z-index: 3;
     right: -8em;
     top: 0;
-    source, img{
+    source,
+    img {
       width: 100%;
     }
   }
