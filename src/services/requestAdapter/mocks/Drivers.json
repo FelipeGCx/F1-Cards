@@ -234,7 +234,11 @@
         "lastname": "sainz",
         "nickname": null,
         "birth": "01/09/1994",
-        "picture": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fimage%2028.png?alt=media&token=711146d3-a963-430c-8e20-30ce58e5cef6",
+        "picture": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fcarlos_sainz_jr.avif?alt=media&token=ddca6c06-82df-40f0-a949-5688e8d6a280",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fcarlos_sainz_jr.webp?alt=media&token=950c20cf-b77c-4807-8d6e-499448971cd9",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fcarlos_sainz_jr.png?alt=media&token=114fec5c-63bc-4b5b-a314-392472d4f67b"
+        },
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/sainz.png",
         "number": {
           "digit": 55,
