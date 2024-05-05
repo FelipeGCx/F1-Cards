@@ -249,7 +249,11 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CARSAI01.png.transform/2col/image.png"
           }
         },
-        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FSainz.png?alt=media&token=8744c1c7-b649-4f77-af22-22e6133a5007",
+        "signature": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcarlos_sainz_jr.avif?alt=media&token=ff035d3a-2de6-449e-b831-592449c6490b",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcarlos_sainz_jr.webp?alt=media&token=146b1c34-aed6-458a-bc3f-d79593e6d042",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcarlos_sainz_jr.png?alt=media&token=bf2a409f-4445-448a-9f58-6963271fb9c4"
+        },
         "season": 2023,
         "team": {
           "id": 2,
