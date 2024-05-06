@@ -309,7 +309,11 @@
         "lastname": "russell",
         "nickname": null,
         "birth": "15/02/1998",
-        "picture": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fimage%2029.png?alt=media&token=93c68144-be82-4541-9440-1194a938b014",
+        "picture": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fgeorge_russell.avif?alt=media&token=3071ba2b-7287-4c34-b9e9-e458f8b615cd",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fgeorge_russell.webp?alt=media&token=79a02b70-071a-491a-9196-d4a78242ef7f",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fgeorge_russell.png?alt=media&token=1b1de6fc-72ce-4684-b881-b8a08d3a858a"
+        },
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/russell.png",
         "number": {
           "digit": 63,
