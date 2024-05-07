@@ -324,7 +324,11 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/GEORUS01.png.transform/2col/image.png"
           }
         },
-        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FRussell.png?alt=media&token=06fc4f4b-a595-4906-ab99-a5e6f0b265b9",
+        "signature": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fgeorge_russell.avif?alt=media&token=b50e64c3-e0e2-4fd0-9327-8a976557b118",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fgeorge_russell.webp?alt=media&token=fdf91fbb-092d-42e4-99e1-7a3e4e5c84ef",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fgeorge_russell.png?alt=media&token=0f6f7b5b-d91a-4aa8-837b-41ab6478d55c"
+        },
         "season": 2023,
         "team": {
           "id": 3,
