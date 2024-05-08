@@ -397,7 +397,11 @@
             "image": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LEWHAM01.png.transform/2col/image.png"
           }
         },
-        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FHamilton.png?alt=media&token=fb9bd162-856f-42a1-84fd-3b518876f1cf",
+        "signature": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Flewis_hamilton.avif?alt=media&token=fc663af4-6d16-46e2-a224-1266c94514e6",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Flewis_hamilton.webp?alt=media&token=ecd51045-3670-4fa4-88e7-cbad66a4cd71",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Flewis_hamilton.png?alt=media&token=11eb5b52-b4b6-484f-9f22-bf811b566668"
+        },
         "season": 2023,
         "team": {
           "id": 3,
