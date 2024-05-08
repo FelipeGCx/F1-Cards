@@ -471,7 +471,11 @@
           }
         },
         "season": 2023,
-        "signature": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fsignatures%2FOcon.png?alt=media&token=edb3711c-525e-4f33-b186-64d14dde4c24",
+        "signature": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Festeban_ocon.avif?alt=media&token=79397262-1483-487a-9f14-1425dea6bdef",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Festeban_ocon.webp?alt=media&token=5138e12d-3e32-446b-ae1f-0cfd14660ce7",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Festeban_ocon.png?alt=media&token=801656b1-4c23-4ef6-8250-8dcd343120ee"
+        },
         "team": {
           "id": 4,
           "name": "alpine f1 team",
