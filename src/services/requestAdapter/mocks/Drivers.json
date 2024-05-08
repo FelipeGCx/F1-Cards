@@ -382,7 +382,11 @@
         "lastname": "hamilton",
         "nickname": null,
         "birth": "07/06/1985",
-        "picture": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fimage%2030.png?alt=media&token=ea6e2947-0f75-454a-9f52-2b6f64aedae3",
+        "picture": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Flewis_hamilton.avif?alt=media&token=7185df09-82e2-48a3-b3f8-cc12681ace20",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Flewis_hamilton.webp?alt=media&token=c1a4358d-f8c9-441e-bd47-bf02ab11be78",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Flewis_hamilton.png?alt=media&token=4f2e5c23-5a05-4383-88a7-1ada2e3db294"
+        },
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/hamilton.png",
         "number": {
           "digit": 44,
