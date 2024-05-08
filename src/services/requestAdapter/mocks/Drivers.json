@@ -455,7 +455,11 @@
         "lastname": "ocon",
         "nickname": null,
         "birth": "17/09/1996",
-        "picture": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/drivers%2Fimage%2031.png?alt=media&token=44614c16-56c9-4154-ac0e-ce9799a481e8",
+        "picture": {
+          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Festeban_ocon.avif?alt=media&token=9c647718-247b-470f-a119-8c4b7d75905a",
+          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Festeban_ocon.webp?alt=media&token=99f40694-7a42-4738-9900-1a115c492e08",
+          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Festeban_ocon.png?alt=media&token=fd1ee80b-00c2-4aa4-a1ed-97ad0972acc7"
+        },
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/ocon.png",
         "number": {
           "digit": 31,
