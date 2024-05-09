@@ -21,7 +21,8 @@ const props = defineProps<Props>();
       <source :srcset="props.driver.picture.webp" type="image/webp" />
       <img
         :src="props.driver.picture.png"
-        :alt="`${props.driver.firstname} ${props.driver.lastname} profile pricture`"
+        :alt="`${props.driver.firstname} ${props.driver.lastname} ${props.driver.season} profile picture`"
+        loading="lazy"
       />
     </picture>
     <div class="names">
@@ -38,14 +39,29 @@ const props = defineProps<Props>();
       <p class="lastname">{{ props.driver.lastname }}</p>
     </div>
     <div class="details">
-      <img :src="props.driver.helmet" alt="" class="helmet" />
+      <img
+        :src="props.driver.helmet"
+        :alt="`${props.driver.firstname} ${props.driver.lastname} ${props.driver.season} helmet`"
+        loading="lazy"
+        class="helmet"
+        height="60.03"
+        width="90"
+      />
       <picture
         v-if="props.driver.number.icon.oneColor"
         v-html="props.driver.number.icon.oneColor"
         class="number"
       >
       </picture>
-      <img v-else :src="props.driver.number.icon.image" alt="" class="number" />
+      <img
+        v-else
+        :src="props.driver.number.icon.image"
+        :alt="`${props.driver.firstname} ${props.driver.lastname} ${props.driver.season} number`"
+        loading="lazy"
+        class="number"
+        height="42.2"
+        width="75"
+      />
     </div>
     <div class="information">
       <div class="countryContainer">
@@ -79,6 +95,9 @@ const props = defineProps<Props>();
           <img
             :src="props.driver.signature.png"
             :alt="`${props.driver.firstname} ${props.driver.lastname} signature`"
+            loading="lazy"
+            height="31.21"
+            width="71.6"
           />
         </picture>
       </div>
@@ -127,7 +146,7 @@ const props = defineProps<Props>();
     right: -8em;
     top: 0;
     source,
-    img {
+    img loading="lazy" {
       width: 100%;
     }
   }
@@ -264,7 +283,7 @@ const props = defineProps<Props>();
       clip-path: polygon(32% 0, 100% 0, 100% 100%, 0% 100%);
 
       picture,
-      img,
+      img loading="lazy",
       source {
         height: 100%;
         filter: grayscale(1);
