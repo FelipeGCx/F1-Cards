@@ -44,8 +44,8 @@ const props = defineProps<Props>();
         :alt="`${props.driver.firstname} ${props.driver.lastname} ${props.driver.season} helmet`"
         loading="lazy"
         class="helmet"
-        height="60.03"
-        width="90"
+        :height="60.03"
+        :width="90"
       />
       <picture
         v-if="props.driver.number.icon.oneColor"
@@ -59,8 +59,8 @@ const props = defineProps<Props>();
         :alt="`${props.driver.firstname} ${props.driver.lastname} ${props.driver.season} number`"
         loading="lazy"
         class="number"
-        height="42.2"
-        width="75"
+        :height="42.2"
+        :width="75"
       />
     </div>
     <div class="information">
@@ -96,8 +96,8 @@ const props = defineProps<Props>();
             :src="props.driver.signature.png"
             :alt="`${props.driver.firstname} ${props.driver.lastname} signature`"
             loading="lazy"
-            height="31.21"
-            width="71.6"
+            :height="31.21"
+            :width="71.6"
           />
         </picture>
       </div>
