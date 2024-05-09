@@ -146,7 +146,7 @@ const props = defineProps<Props>();
     right: -8em;
     top: 0;
     source,
-    img loading="lazy" {
+    img {
       width: 100%;
     }
   }
@@ -283,7 +283,7 @@ const props = defineProps<Props>();
       clip-path: polygon(32% 0, 100% 0, 100% 100%, 0% 100%);
 
       picture,
-      img loading="lazy",
+      img,
       source {
         height: 100%;
         filter: grayscale(1);
