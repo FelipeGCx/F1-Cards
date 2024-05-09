@@ -39,7 +39,7 @@
           "city": "milton keynes",
           "color": {
             "primary": "#001E49",
-            "secondary": "#3671C6"
+            "secondary": "#3F84E7"
           },
           "country": {
             "id": 0,
@@ -114,7 +114,8 @@
           "city": "milton keynes",
           "color": {
             "primary": "#001E49",
-            "secondary": "#3671C6"
+            "secondary": "#3F84E7"
+
           },
           "country": {
             "id": 0,
