@@ -50,7 +50,7 @@ const props = defineProps<Props>();
 
 <style scoped lang="scss">
 .card {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   width: 20em;
   aspect-ratio: 0.72/1;
   display: flex;
