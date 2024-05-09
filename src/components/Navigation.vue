@@ -27,7 +27,7 @@ ul {
       color: white;
       text-transform: capitalize;
       &.router-link-active{
-        color: darkcyan;
+        color: #00F9FF;
       }
     }
   }
