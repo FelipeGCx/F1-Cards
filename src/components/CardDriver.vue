@@ -19,7 +19,10 @@ const props = defineProps<Props>();
     <picture class="picture">
       <source :srcset="props.driver.picture.avif" type="image/avif" />
       <source :srcset="props.driver.picture.webp" type="image/webp" />
-      <img :src="props.driver.picture.png" />
+      <img
+        :src="props.driver.picture.png"
+        :alt="`${props.driver.firstname} ${props.driver.lastname} profile pricture`"
+      />
     </picture>
     <div class="names">
       <picture
@@ -73,7 +76,10 @@ const props = defineProps<Props>();
         <picture>
           <source :srcset="props.driver.signature.avif" type="image/avif" />
           <source :srcset="props.driver.signature.webp" type="image/webp" />
-          <img :src="props.driver.signature.png" />
+          <img
+            :src="props.driver.signature.png"
+            :alt="`${props.driver.firstname} ${props.driver.lastname} signature`"
+          />
         </picture>
       </div>
       <Logo class="iconInfoBack" />
