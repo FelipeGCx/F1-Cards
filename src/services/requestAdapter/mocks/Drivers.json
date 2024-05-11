@@ -43,9 +43,15 @@
           }
         },
         "signature": {
-          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fmax_verstappen.avif?alt=media&token=1fb13aa4-920a-4fe7-ad7d-2ba47eb03a51",
-          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fmax_verstappen.webp?alt=media&token=04bc744d-ff9f-4d0d-9bd0-1512a5aaa815",
-          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fmax_verstappen.png?alt=media&token=515d4f89-9242-4923-96fe-5c793939e4f2"
+          "avif": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fmax_verstappen.avif?alt=media&token=1fb13aa4-920a-4fe7-ad7d-2ba47eb03a51"
+          },
+          "webp": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fmax_verstappen.webp?alt=media&token=04bc744d-ff9f-4d0d-9bd0-1512a5aaa815"
+          },
+          "png": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fmax_verstappen.png?alt=media&token=515d4f89-9242-4923-96fe-5c793939e4f2"
+          }
         },
         "season": 2023,
         "team": {
@@ -118,9 +124,15 @@
           }
         },
         "signature": {
-          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.avif?alt=media&token=3a4558de-0286-4dc6-8b44-445aae786055",
-          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.webp?alt=media&token=e3c73d45-9ad8-42be-bc51-cba3223925b4",
-          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.png?alt=media&token=3cf07927-e4f1-4e24-baff-1dff682322d6"
+          "avif": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.avif?alt=media&token=3a4558de-0286-4dc6-8b44-445aae786055"
+          },
+          "webp": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.webp?alt=media&token=e3c73d45-9ad8-42be-bc51-cba3223925b4"
+          },
+          "png": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fsergio_perez.png?alt=media&token=3cf07927-e4f1-4e24-baff-1dff682322d6"
+          }
         },
         "season": 2023,
         "team": {
@@ -193,9 +205,15 @@
           }
         },
         "signature": {
-          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcharles_leclerc.avif?alt=media&token=0579ef77-b421-45a1-badb-6a2402a60a0c",
-          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcharles_leclerc.webp?alt=media&token=946440f5-21ce-4463-bc6e-ff437e8068fd",
-          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcharles_leclerc.png?alt=media&token=81ef1785-f1d0-445c-b950-7f51a768c573"
+          "avif": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcharles_leclerc.avif?alt=media&token=0579ef77-b421-45a1-badb-6a2402a60a0c"
+          },
+          "webp": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcharles_leclerc.webp?alt=media&token=946440f5-21ce-4463-bc6e-ff437e8068fd"
+          },
+          "png": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcharles_leclerc.png?alt=media&token=81ef1785-f1d0-445c-b950-7f51a768c573"
+          }
         },
         "season": 2023,
         "team": {
@@ -268,9 +286,15 @@
           }
         },
         "signature": {
-          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcarlos_sainz_jr.avif?alt=media&token=ff035d3a-2de6-449e-b831-592449c6490b",
-          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcarlos_sainz_jr.webp?alt=media&token=146b1c34-aed6-458a-bc3f-d79593e6d042",
-          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcarlos_sainz_jr.png?alt=media&token=bf2a409f-4445-448a-9f58-6963271fb9c4"
+          "avif": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcarlos_sainz_jr.avif?alt=media&token=ff035d3a-2de6-449e-b831-592449c6490b"
+          },
+          "webp": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcarlos_sainz_jr.webp?alt=media&token=146b1c34-aed6-458a-bc3f-d79593e6d042"
+          },
+          "png": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fcarlos_sainz_jr.png?alt=media&token=bf2a409f-4445-448a-9f58-6963271fb9c4"
+          }
         },
         "season": 2023,
         "team": {
@@ -343,9 +367,15 @@
           }
         },
         "signature": {
-          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fgeorge_russell.avif?alt=media&token=b50e64c3-e0e2-4fd0-9327-8a976557b118",
-          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fgeorge_russell.webp?alt=media&token=fdf91fbb-092d-42e4-99e1-7a3e4e5c84ef",
-          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fgeorge_russell.png?alt=media&token=0f6f7b5b-d91a-4aa8-837b-41ab6478d55c"
+          "avif": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fgeorge_russell.avif?alt=media&token=b50e64c3-e0e2-4fd0-9327-8a976557b118"
+          },
+          "webp": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fgeorge_russell.webp?alt=media&token=fdf91fbb-092d-42e4-99e1-7a3e4e5c84ef"
+          },
+          "png": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Fgeorge_russell.png?alt=media&token=0f6f7b5b-d91a-4aa8-837b-41ab6478d55c"
+          }
         },
         "season": 2023,
         "team": {
@@ -416,9 +446,15 @@
           }
         },
         "signature": {
-          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Flewis_hamilton.avif?alt=media&token=fc663af4-6d16-46e2-a224-1266c94514e6",
-          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Flewis_hamilton.webp?alt=media&token=ecd51045-3670-4fa4-88e7-cbad66a4cd71",
-          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Flewis_hamilton.png?alt=media&token=11eb5b52-b4b6-484f-9f22-bf811b566668"
+          "avif": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Flewis_hamilton.avif?alt=media&token=fc663af4-6d16-46e2-a224-1266c94514e6"
+          },
+          "webp": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Flewis_hamilton.webp?alt=media&token=ecd51045-3670-4fa4-88e7-cbad66a4cd71"
+          },
+          "png": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Flewis_hamilton.png?alt=media&token=11eb5b52-b4b6-484f-9f22-bf811b566668"
+          }
         },
         "season": 2023,
         "team": {
@@ -490,9 +526,15 @@
         },
         "season": 2023,
         "signature": {
-          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Festeban_ocon.avif?alt=media&token=79397262-1483-487a-9f14-1425dea6bdef",
-          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Festeban_ocon.webp?alt=media&token=5138e12d-3e32-446b-ae1f-0cfd14660ce7",
-          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Festeban_ocon.png?alt=media&token=801656b1-4c23-4ef6-8250-8dcd343120ee"
+          "avif": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Festeban_ocon.avif?alt=media&token=79397262-1483-487a-9f14-1425dea6bdef"
+          },
+          "webp": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Festeban_ocon.webp?alt=media&token=5138e12d-3e32-446b-ae1f-0cfd14660ce7"
+          },
+          "png": {
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fsignatures%2Festeban_ocon.png?alt=media&token=801656b1-4c23-4ef6-8250-8dcd343120ee"
+          }
         },
         "team": {
           "id": 4,

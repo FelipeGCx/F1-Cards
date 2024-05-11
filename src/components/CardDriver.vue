@@ -138,10 +138,10 @@ const props = defineProps<Props>();
       </div>
       <div v-if="props.driver.signature" class="signature">
         <picture>
-          <source :srcset="props.driver.signature.avif" type="image/avif" />
-          <source :srcset="props.driver.signature.webp" type="image/webp" />
+          <source :srcset="props.driver.signature.avif.x5" type="image/avif" />
+          <source :srcset="props.driver.signature.webp.x5" type="image/webp" />
           <img
-            :src="props.driver.signature.png"
+            :src="props.driver.signature.png.x5"
             :alt="`${props.driver.firstname} ${props.driver.lastname} signature`"
             loading="lazy"
             :height="31.21"
