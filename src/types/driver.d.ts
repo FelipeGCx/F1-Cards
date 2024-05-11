@@ -36,7 +36,15 @@ export type DriverIcon = {
 };
 
 export type Media = {
-  avif: string;
-  webp: string;
-  png: string;
+  avif: MediaSizes;
+  webp: MediaSizes;
+  png: MediaSizes;
+};
+
+export type MediaSizes = {
+  x1: string;
+  x2: string;
+  x3: string;
+  x4: string;
+  x5: string;
 };
