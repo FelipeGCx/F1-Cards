@@ -17,10 +17,58 @@ const props = defineProps<Props>();
     <Logo class="icon" />
     <Logo class="iconBack" />
     <picture class="picture">
-      <source :srcset="props.driver.picture.avif.x1" type="image/avif" />
-      <source :srcset="props.driver.picture.webp.x1" type="image/webp" />
+      <source
+        media="(width < 450px)"
+        :srcset="props.driver.picture.avif.x1"
+        type="image/avif"
+      />
+      <source
+        media="(width >= 450px) and (width < 768px)"
+        :srcset="props.driver.picture.avif.x2"
+        type="image/avif"
+      />
+      <source
+        media="(width >= 768px) and (width < 1024px)"
+        :srcset="props.driver.picture.avif.x3"
+        type="image/avif"
+      />
+      <source
+        media="(width >= 1024px) and (width < 1290px)"
+        :srcset="props.driver.picture.avif.x4"
+        type="image/avif"
+      />
+      <source
+        media="(width >= 1290px) and (width <= 1480px)"
+        :srcset="props.driver.picture.avif.x5"
+        type="image/avif"
+      />
+      <source
+        media="(width < 450px)"
+        :srcset="props.driver.picture.webp.x1"
+        type="image/webp"
+      />
+      <source
+        media="(width >= 450px) and (width < 768px)"
+        :srcset="props.driver.picture.webp.x2"
+        type="image/webp"
+      />
+      <source
+        media="(width >= 768px) and (width < 1024px)"
+        :srcset="props.driver.picture.webp.x3"
+        type="image/webp"
+      />
+      <source
+        media="(width >= 1024px) and (width < 1290px)"
+        :srcset="props.driver.picture.webp.x4"
+        type="image/webp"
+      />
+      <source
+        media="(width >= 1290px) and (width <= 1480px)"
+        :srcset="props.driver.picture.webp.x5"
+        type="image/webp"
+      />
       <img
-        :src="props.driver.picture.png.x1"
+        :src="props.driver.picture.png.x5"
         :alt="`${props.driver.firstname} ${props.driver.lastname} ${props.driver.season} profile picture`"
         loading="lazy"
       />
@@ -53,6 +101,15 @@ const props = defineProps<Props>();
         class="number"
       >
       </picture>
+      <img
+        v-else
+        :src="props.driver.number.icon.image"
+        :alt="`${props.driver.firstname} ${props.driver.lastname} ${props.driver.season} number`"
+        loading="lazy"
+        class="number"
+        :height="42.2"
+        :width="75"
+      />
     </div>
     <div class="information">
       <div class="countryContainer">
