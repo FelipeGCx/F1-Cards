@@ -208,9 +208,27 @@
         "nickname": null,
         "birth": "16/10/1997",
         "picture": {
-          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fcharles_leclerc.avif?alt=media&token=6acc1c92-1cd1-4d49-b827-9c67c645893f",
-          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fcharles_leclerc.webp?alt=media&token=062c4d20-5ee0-494b-bb05-082467eb44bf",
-          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fcharles_leclerc.png?alt=media&token=df5c01ce-84e5-4cfd-b83d-64d2bd3767fe"
+          "avif": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x1.avif?alt=media&token=b6642fb2-b5bd-4a52-a6a0-77545eae4489",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x2.avif?alt=media&token=12d0f49b-e1e9-4531-a782-ba6658be7fd0",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x3.avif?alt=media&token=df333de5-662e-4eda-9e87-99d4219741b5",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x4.avif?alt=media&token=a5b184bf-1805-4242-abcb-8bb4ece39fda",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x5.avif?alt=media&token=a3028c1c-97e0-4ee2-a447-8f2af09aa9b3"
+          },
+          "webp": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x1.webp?alt=media&token=cc5e7bd5-b94d-4486-9620-9cd523a3e67c",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x2.png?alt=media&token=27eab1f9-70a4-4a9f-9b96-0d28db8f9005",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x3.png?alt=media&token=3e908c27-e519-4b43-8677-5eff2f022c01",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x4.png?alt=media&token=22bc7f1b-f5a3-454e-9165-7ce55e62c026",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x5.png?alt=media&token=6a494676-d976-4964-af3e-4057f54c47b8"
+          },
+          "png": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x1.png?alt=media&token=6423397a-bbe5-4e2c-9c0f-1cc0f7d493ae",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x2.webp?alt=media&token=542084bd-7e29-4854-812f-3fa75237f660",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x3.webp?alt=media&token=995ee1c7-9116-4f35-86a1-710a658ac730",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x4.webp?alt=media&token=7842996e-cb60-4bfe-9574-6d87c7b403e9",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fcharles_leclerc__x5.webp?alt=media&token=b1577874-8e39-4889-893a-1bf3c8057d26"
+          }
         },
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/leclerc.png",
         "number": {
