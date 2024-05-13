@@ -109,9 +109,27 @@
         "nickname": "checo",
         "birth": "26/01/1990",
         "picture": {
-          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fsergio_perez.avif?alt=media&token=a5b031a9-6172-43d6-a718-0d1b48b370a3",
-          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fsergio_perez.webp?alt=media&token=da86a1dc-b940-4fcd-8bb2-3ca405a9d4f5",
-          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fsergio_perez.png?alt=media&token=a3eaf45d-4a4e-4504-bcff-84c5976aaa75"
+          "avif": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x1.avif?alt=media&token=d7e86405-702d-44ce-a26c-6c63dfd65b21",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x2.avif?alt=media&token=d1018c7b-0869-4183-9392-84f4b99a8e4a",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x3.avif?alt=media&token=1b6123ee-9b11-450b-8032-40d303020596",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x4.avif?alt=media&token=7962c548-8d37-43fc-bd2b-bf40816a486b",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x5.avif?alt=media&token=c233f6a0-96e9-4710-8dc0-99c561b349c4"
+          },
+          "webp": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x1.webp?alt=media&token=78aa76e7-00d6-448d-a7ae-77671eef6fe8",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x2.webp?alt=media&token=23514c44-8322-4ac1-9ad3-c78e8cee8777",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x3.webp?alt=media&token=08282d3a-20d1-477c-bc2b-8821f9927a3c",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x4.webp?alt=media&token=6ab09cc5-cf3e-4c81-8ff5-7157e4332d36",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x5.webp?alt=media&token=5047d91a-ac94-4acd-ac76-c387ef55feb0"
+          },
+          "png": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x1.png?alt=media&token=8e2cfab3-72fb-4816-8dce-2405a4ce25ba",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x2.png?alt=media&token=f929b2d8-18cd-42f5-9ab8-915b0023d075",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x3.png?alt=media&token=dfdc2a97-142c-4bd2-bd92-f88c894017dd",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x4.png?alt=media&token=cea04f8d-cba3-4651-a96f-2b24c1977114",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fsergio_perez__x5.png?alt=media&token=df5b3e1c-55a9-4fc0-a7c2-b4346f63d265"
+          }
         },
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/perez.png",
         "number": {
