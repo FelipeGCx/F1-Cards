@@ -406,9 +406,27 @@
         "nickname": null,
         "birth": "15/02/1998",
         "picture": {
-          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fgeorge_russell.avif?alt=media&token=3071ba2b-7287-4c34-b9e9-e458f8b615cd",
-          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fgeorge_russell.webp?alt=media&token=79a02b70-071a-491a-9196-d4a78242ef7f",
-          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Fgeorge_russell.png?alt=media&token=1b1de6fc-72ce-4684-b881-b8a08d3a858a"
+          "avif": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x1.avif?alt=media&token=754e2854-0d72-442b-807a-cb79ad0b3b5d",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x2.avif?alt=media&token=0677e589-90d8-4692-b74d-b539c0340fd3",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x3.avif?alt=media&token=9c98ef55-1695-4f7b-b1fe-1679f1569149",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x4.avif?alt=media&token=80261085-692c-4f3d-bcc6-30983d6fe65f",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x5.avif?alt=media&token=5653c983-75fa-4266-beea-b1f3c4f6f428"
+          },
+          "webp": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x1.webp?alt=media&token=d6035d3a-1c5c-40e2-ab62-a5b475718974",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x2.webp?alt=media&token=82d1401b-5430-4627-abd0-8a967ed2ff40",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x3.webp?alt=media&token=dbae322b-ccf5-4bdb-8757-f6293b6bf169",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x4.webp?alt=media&token=c328467c-5b6b-4181-90ae-566c6f319aaf",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x5.webp?alt=media&token=c047c198-8c00-426d-b590-975b87ea2bc3"
+          },
+          "png": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x1.png?alt=media&token=3ec91799-34ba-4f45-83e1-c5fcb88976cc",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x2.png?alt=media&token=642b6a61-271f-4c93-b6e9-054aa20ae579",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x3.png?alt=media&token=2f228d6c-16f2-4ebd-b3b0-b00cfe18a8d0",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x4.png?alt=media&token=7b4a2dbc-3d9c-4258-b737-8ac1d51c704f",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Fgeorge_russell__x5.png?alt=media&token=8706c879-9ac0-44eb-9c85-ecf2373ccf66"
+          }
         },
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/russell.png",
         "number": {
