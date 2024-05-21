@@ -503,9 +503,27 @@
         "nickname": null,
         "birth": "07/06/1985",
         "picture": {
-          "avif": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Flewis_hamilton.avif?alt=media&token=7185df09-82e2-48a3-b3f8-cc12681ace20",
-          "webp": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Flewis_hamilton.webp?alt=media&token=c1a4358d-f8c9-441e-bd47-bf02ab11be78",
-          "png": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2F2023%2Flewis_hamilton.png?alt=media&token=4f2e5c23-5a05-4383-88a7-1ada2e3db294"
+          "avif": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x1.avif?alt=media&token=3c0c590a-cd7c-4587-a770-6939bb0f68cf",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x2.avif?alt=media&token=9b419825-db0d-4da4-aee9-9e14e450a5f8",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x3.avif?alt=media&token=f616c29c-1141-438e-9d82-999d66dad1df",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x4.avif?alt=media&token=07aa8160-7333-4b39-9e24-d0901da1dbb2",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x5.avif?alt=media&token=7a5e3ca6-5bce-4fbb-b52a-848bee4594d9"
+          },
+          "webp": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x1.webp?alt=media&token=5f386bc8-a108-4b09-aa0a-512bec11b8b1",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x2.webp?alt=media&token=878030b2-f2dd-4844-ba2d-1db2bd2e55bb",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x3.webp?alt=media&token=24af3f9a-b670-42e7-849b-671a0430c313",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x4.webp?alt=media&token=14e8e2ce-030b-4d4b-a19e-b28081f14f26",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x5.webp?alt=media&token=4adea706-821d-4aab-8c03-0daf43e6b70f"
+          },
+          "png": {
+            "x1": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x1.png?alt=media&token=6529c70a-d320-4a14-b0c0-6d833e0f7fb8",
+            "x2": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x2.png?alt=media&token=75ad93ca-be4e-44e9-be1b-f7d919b4c58e",
+            "x3": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x3.png?alt=media&token=1b10b94b-b78a-4f8c-b163-74ae40c80aec",
+            "x4": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x4.png?alt=media&token=60229f0b-0291-4ec6-a0a8-e491eacca439",
+            "x5": "https://firebasestorage.googleapis.com/v0/b/simple-a5eec.appspot.com/o/formula%2Fdrivers%2Fprofile%20pictures%2F2023%2Flewis_hamilton__x5.png?alt=media&token=7fc0465f-f695-4fd1-99e3-becc0014532c"
+          }
         },
         "helmet": "https://media.formula1.com/content/dam/fom-website/manual/Helmets2023/hamilton.png",
         "number": {
