@@ -165,6 +165,7 @@ const props = defineProps<Props>();
   background-color: white;
   position: relative;
   overflow: hidden;
+  border-radius: 1em;
 
   .iconBack {
     position: absolute;
