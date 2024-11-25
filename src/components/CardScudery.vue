@@ -21,7 +21,7 @@ defineProps<Props>();
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: gray;
   position: relative;
   overflow: hidden;
 }
