@@ -1,10 +1,12 @@
 <template>
-    <div>
-    </div>
+  <div>
+    <Logo :class="'iconBack'" />
+  </div>
 </template>
 
 <script setup lang="ts">
 import { Scudery } from "@/types";
+import { Logo } from "@/assets/icons";
 
 interface Props {
   scudery: Scudery | null;
