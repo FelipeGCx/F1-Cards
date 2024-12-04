@@ -11,11 +11,11 @@ const routes = [
     name: "drivers",
     component: () => import("./views/drivers/index.vue"),
   },
-  {
-    path: "/test",
-    name: "test",
-    component: () => import("./views/test.vue"),
-  },
+  // {
+  //   path: "/test",
+  //   name: "test",
+  //   component: () => import("./views/test.vue"),
+  // },
   {
     path: "/cars",
     name: "cars",
@@ -30,6 +30,11 @@ const routes = [
     path: "/circuits",
     name: "circuits",
     component: () => import("./views/circuits/index.vue"),
+  },
+  {
+    path: "/scuderies",
+    name: "scuderies",
+    component: () => import("./views/scuderies/index.vue"),
   },
 ];
 
