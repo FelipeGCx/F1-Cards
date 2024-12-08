@@ -1,13 +1,3 @@
-<script setup lang="ts">
-import { Driver } from "../types/driver";
-import { Logo } from "../assets/icons";
-
-interface Props {
-  driver: Driver | null;
-}
-const props = defineProps<Props>();
-</script>
-
 <template>
   <div
     class="card"
@@ -153,6 +143,16 @@ const props = defineProps<Props>();
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { Driver } from "../types/driver";
+import { Logo } from "../assets/icons";
+
+interface Props {
+  driver: Driver | null;
+}
+const props = defineProps<Props>();
+</script>
 
 <style scoped lang="scss">
 .card {
