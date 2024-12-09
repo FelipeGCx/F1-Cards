@@ -1,13 +1,3 @@
-<script setup lang="ts">
-import { Team } from "../types";
-import { Logo, Line } from "../assets/icons";
-
-interface Props {
-  team: Team | null;
-}
-const props = defineProps<Props>();
-</script>
-
 <template>
   <section
     class="card"
@@ -39,6 +29,16 @@ const props = defineProps<Props>();
     <div class="shadow"></div>
   </section>
 </template>
+
+<script setup lang="ts">
+import { Team } from "../types";
+import { Logo, Line } from "../assets/icons";
+
+interface Props {
+  team: Team | null;
+}
+const props = defineProps<Props>();
+</script>
 
 <style scoped lang="scss">
 .card {
@@ -209,7 +209,7 @@ const props = defineProps<Props>();
       display: flex;
       width: auto;
       height: 4em;
-      color:white;
+      color: white;
     }
   }
   .line {
