@@ -204,7 +204,7 @@ const props = defineProps<Props>();
     position: absolute;
     display: flex;
     flex-direction: column;
-    z-index: 4;
+    z-index: 2;
     top: 7.2em;
     left: 0em;
 
@@ -335,6 +335,7 @@ const props = defineProps<Props>();
       img,
       source {
         height: 100%;
+        width: 100%;
         filter: grayscale(1);
       }
     }
