@@ -5,5 +5,6 @@ import Team from "./Team.json";
 import Teams from "./Teams.json";
 import Countries from "./Countries.json";
 import Circuits from "./Circuits.json";
+import Scuderies from "./Scuderies.json";
 
-export { Error, Driver,Drivers, Team, Teams, Countries, Circuits};
+export { Error, Driver, Drivers, Team, Teams, Countries, Circuits, Scuderies };
