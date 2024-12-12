@@ -8,6 +8,7 @@ import {
   Teams,
   Countries,
   Circuits,
+  Scuderies,
 } from "./mocks";
 import {
   DRIVER,
@@ -16,6 +17,7 @@ import {
   TEAMS,
   COUNTRIES,
   CIRCUITS,
+  SCUDERIES,
 } from "../../constants";
 
 export class DevelopmentProvider implements RequestProvider {
@@ -33,6 +35,8 @@ export class DevelopmentProvider implements RequestProvider {
         return Countries;
       case CIRCUITS:
         return Circuits;
+      case SCUDERIES:
+        return Scuderies;
       default:
         return Error;
     }
