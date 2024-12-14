@@ -1,6 +1,6 @@
 <template>
    <ul class="scuderies">
-    <li v-for="scudery in scuderis" :key="scudery.id">
+    <li v-for="scudery in scuderies" :key="scudery.id">
       <CardScudery :scudery="scudery" />
     </li>
   </ul>
@@ -16,7 +16,6 @@ const scuderies = ref<Scudery[] | null>(null);
 
 onMounted(async () => {
   scuderies.value = await getData<Scudery[]>(SCUDERIES);
-  console.log(scuderies.value);
 });
 
 const getData = async <T>(url: string): Promise<T | null> => {
