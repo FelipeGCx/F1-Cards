@@ -1,26 +1,26 @@
 <template>
   <section
     class="card"
-    v-if="props.team"
-    :style="`--color-team: ${props.team.color}`"
+    v-if="props.scudery"
+    :style="`--color-scudery: ${props.scudery.color}`"
   >
     <Logo :class="'iconBack'" />
-    <img :src="props.team.picture" class="picture" />
+    <img :src="props.scudery.picture" class="picture" />
     <div class="name">
-      <h1>{{ props.team.name }}</h1>
-      <p>{{ props.team.scudery.name }}</p>
+      <h1>{{ props.scudery.name }}</h1>
+      <p>{{ props.scudery }}</p>
     </div>
     <div class="site">
-      <!-- <p>{{ props.team.city }}</p> -->
-      <p>{{ props.team.country.name }}</p>
-      <picture v-html="props.team.country.flag.widescreen"></picture>
+      <!-- <p>{{ props.scudery.city }}</p> -->
+      <p>{{ props.scudery.country.name }}</p>
+      <picture v-html="props.scudery.country.flag.widescreen"></picture>
     </div>
-    <p class="chasis">{{ props.team.chasis }}</p>
+    <p class="chasis">{{ props.scudery.chasis }}</p>
     <p class="engine">
-      {{ props.team.engine }}
+      {{ props.scudery.engine }}
     </p>
     <div class="logo">
-      <picture v-html="props.team.scudery.icon"> </picture>
+      <picture v-html="props.scudery.scudery.icon"> </picture>
     </div>
     <div class="f1-logo">
       <Logo :class="'icon'" />
@@ -31,11 +31,11 @@
 </template>
 
 <script setup lang="ts">
-import { Team } from "../types";
+import { Scudery } from "../types";
 import { Logo, Line } from "../assets/icons";
 
 interface Props {
-  team: Team | null;
+  scudery: Scudery | null;
 }
 const props = defineProps<Props>();
 </script>
@@ -59,7 +59,7 @@ const props = defineProps<Props>();
     top: 0em;
     left: -8.7em;
     transform: rotateY(180deg);
-    color: var(--color-team);
+    color: var(--color-scudery);
   }
   // .iconBack {
   //   position: absolute;
@@ -69,7 +69,7 @@ const props = defineProps<Props>();
   //   top: 0em;
   //   left: 0em;
   //   transform: rotateY(180deg);
-  //   color: var(--color-team);
+  //   color: var(--color-scudery);
   // }
 
   .name {
@@ -141,7 +141,7 @@ const props = defineProps<Props>();
 
   .chasis {
     position: absolute;
-    color: var(--color-team);
+    color: var(--color-scudery);
     background-color: white;
     width: fit-content;
     padding: 0.1em 1.6em;
@@ -157,7 +157,7 @@ const props = defineProps<Props>();
 
   .engine {
     position: absolute;
-    background-color: var(--color-team);
+    background-color: var(--color-scudery);
     color: white;
     width: fit-content;
     padding: 0.1em 1.6em;
@@ -174,7 +174,7 @@ const props = defineProps<Props>();
     padding-left: 2.4em;
     height: 4.3em;
     width: 10em;
-    background-color: var(--color-team);
+    background-color: var(--color-scudery);
     position: absolute;
     right: 0;
     bottom: 0;
@@ -192,7 +192,7 @@ const props = defineProps<Props>();
   }
   .logo {
     // padding: 0.6em 3.8em 0.7em 1.4em;
-    background-color: var(--color-team);
+    background-color: var(--color-scudery);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -217,7 +217,7 @@ const props = defineProps<Props>();
     height: 89%;
     position: absolute;
     z-index: 0;
-    color: var(--color-team);
+    color: var(--color-scudery);
     bottom: 0.8em;
     left: 0;
   }
@@ -227,7 +227,7 @@ const props = defineProps<Props>();
     width: 100%;
     height: 17em;
     z-index: 1;
-    background: linear-gradient(0deg, var(--color-team) 0%, transparent 100%);
+    background: linear-gradient(0deg, var(--color-scudery) 0%, transparent 100%);
   }
   &::after {
     content: "";
