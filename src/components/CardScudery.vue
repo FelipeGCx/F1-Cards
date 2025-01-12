@@ -51,6 +51,8 @@ const props = defineProps<Props>();
   background-color: #e2e2e2;
   position: relative;
   overflow: hidden;
+  border-radius: 1em;
+
   .iconBack {
     position: absolute;
     width: 53em;
