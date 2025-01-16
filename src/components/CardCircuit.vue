@@ -59,6 +59,8 @@ const props = defineProps<Props>();
   background-color: white;
   position: relative;
   overflow: hidden;
+  border-radius: 1em;
+
   .logo {
     background-color: #13181f;
     position: absolute;
